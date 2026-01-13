@@ -1,3 +1,6 @@
 openai==2.8.1
 dotenv==0.9.9
 pandas
+transformers
+torch
+pillow
