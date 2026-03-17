@@ -4,3 +4,6 @@ pandas
 transformers
 torch
 pillow
+sympy
+latex2sympy2
+regex

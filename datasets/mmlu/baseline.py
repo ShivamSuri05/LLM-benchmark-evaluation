@@ -25,6 +25,63 @@ D: {D}
 Return ONLY the letter: A, B, C, or D.
 """
 
+def build_baseline_prompt_v2_reasoning(item: Dict[str, Any], subject: str) -> str:
+    """
+    Variation 2: Asks for reasoning before the final answer.
+    """
+    q = item["question"].strip()
+    A, B, C, D = [c.strip() for c in item["choices"]]
+    return f"""Answer a multiple-choice question from {subject_pretty(subject)}.
+
+QUESTION:
+{q}
+
+OPTIONS:
+A: {A}
+B: {B}
+C: {C}
+D: {D}
+
+Think through this step-by-step, then provide your final answer as a single letter (A, B, C, or D).
+"""
+
+def build_baseline_prompt_v3_concise(item: Dict[str, Any], subject: str) -> str:
+    """
+    Variation 3: Minimal, concise version with reduced instruction text.
+    """
+    q = item["question"].strip()
+    A, B, C, D = [c.strip() for c in item["choices"]]
+    return f"""Question ({subject_pretty(subject)}):
+{q}
+
+A: {A}
+B: {B}
+C: {C}
+D: {D}
+
+Answer: [A/B/C/D]
+"""
+
+def build_baseline_prompt_v4_detailed(item: Dict[str, Any], subject: str) -> str:
+    """
+    Variation 4: Emphasizes careful analysis with explicit constraint highlighting.
+    """
+    q = item["question"].strip()
+    A, B, C, D = [c.strip() for c in item["choices"]]
+    return f"""You are answering a {subject_pretty(subject)} multiple-choice question.
+
+Question:
+{q}
+
+Select the best answer from these options:
+A) {A}
+B) {B}
+C) {C}
+D) {D}
+
+IMPORTANT: Your response must end with ONLY the letter of your answer (A, B, C, or D). No other text after the letter.
+"""
+
 def extract_letter_from_text(response_text: str) -> Optional[str]:
     match = re.search(r"\b([A-D])\b", response_text.upper())
     return match.group(1) if match else None

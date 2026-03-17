@@ -39,9 +39,12 @@ from core.logging_utils import ensure_dir
 from datasets.mmlu.data_loader import list_subjects, load_subject, sample_test_rows
 from datasets.mmlu.prompts import build_5shot_paper_prompt
 from datasets.mmlu.scoring import extract_top_logprobs, choose_from_top_logprobs_strict, extract_usage
-from datasets.mmlu.baseline import build_baseline_prompt, score_baseline_response, BASELINE_PROMPT_VERSION
+from datasets.mmlu.baseline import build_baseline_prompt, build_baseline_prompt_v2_reasoning, build_baseline_prompt_v3_concise, build_baseline_prompt_v4_detailed, score_baseline_response, BASELINE_PROMPT_VERSION
 
 PAPER_PROMPT_VERSION = "paper_5shot_strict_logprobs"
+BASELINE_PROMPT_VERSION_V2 = "baseline_reasoning_v2"
+BASELINE_PROMPT_VERSION_V3 = "baseline_concise_v3"
+BASELINE_PROMPT_VERSION_V4 = "baseline_detailed_v4"
 
 ITEM_FIELDS = [
     "prompt_version",
@@ -196,18 +199,31 @@ def evaluate_one_item_paper(
         }
 
 
+def get_baseline_prompt_builder(prompt_version: str):
+    """Map prompt version string to builder function."""
+    builders = {
+        BASELINE_PROMPT_VERSION: build_baseline_prompt,
+        BASELINE_PROMPT_VERSION_V2: build_baseline_prompt_v2_reasoning,
+        BASELINE_PROMPT_VERSION_V3: build_baseline_prompt_v3_concise,
+        BASELINE_PROMPT_VERSION_V4: build_baseline_prompt_v4_detailed,
+    }
+    return builders.get(prompt_version, build_baseline_prompt)
+
+
 def evaluate_one_item_baseline(
     client: OpenRouterClient,
     *,
     model: str,
     subject: str,
     item: Dict,
+    prompt_version: str,
     max_tokens: int,
     temperature: float,
 ) -> Dict:
     qid = item["qid"]
     gold = item["answer"]
-    prompt = build_baseline_prompt(item, subject)
+    prompt_builder = get_baseline_prompt_builder(prompt_version)
+    prompt = prompt_builder(item, subject)
     #print(prompt)
 
     try:
@@ -231,7 +247,7 @@ def evaluate_one_item_baseline(
             correct_flag = "Y" if pred == gold else "N"
 
         return {
-            "prompt_version": BASELINE_PROMPT_VERSION,
+            "prompt_version": prompt_version,
             "question_id": qid,
             "subject": subject,
             "model": model,
@@ -249,7 +265,7 @@ def evaluate_one_item_baseline(
 
     except Exception as e:
         return {
-            "prompt_version": BASELINE_PROMPT_VERSION,
+            "prompt_version": prompt_version,
             "question_id": qid,
             "subject": subject,
             "model": model,
@@ -309,12 +325,13 @@ def write_items_csv(
                                 item=item,
                                 n_shots=cfg.n_shots,
                             )
-                        elif prompt_version == BASELINE_PROMPT_VERSION:
+                        elif prompt_version in [BASELINE_PROMPT_VERSION, BASELINE_PROMPT_VERSION_V2, BASELINE_PROMPT_VERSION_V3, BASELINE_PROMPT_VERSION_V4]:
                             row = evaluate_one_item_baseline(
                                 client,
                                 model=model,
                                 subject=subject,
                                 item=item,
+                                prompt_version=prompt_version,
                                 max_tokens=cfg.baseline_max_tokens,
                                 temperature=cfg.baseline_temperature,
                             )
@@ -442,15 +459,16 @@ def main() -> None:
     #prompt_versions = [BASELINE_PROMPT_VERSION, PAPER_PROMPT_VERSION]
     #models = ["openai/gpt-4o", "openai/gpt-3.5-turbo"]
 
-    prompt_versions = [PAPER_PROMPT_VERSION]
+    #prompt_versions = [PAPER_PROMPT_VERSION]
+    prompt_versions = [BASELINE_PROMPT_VERSION, BASELINE_PROMPT_VERSION_V2, BASELINE_PROMPT_VERSION_V3, BASELINE_PROMPT_VERSION_V4]
     models = ["openai/gpt-3.5-turbo"]
 
     cfg = FullRunConfig(
         mmlu_root=os.path.join(REPO_ROOT, "datasets/mmlu"),  # expects REPO_ROOT/data/dev and REPO_ROOT/data/test
         out_dir=os.path.join(REPO_ROOT, "outputs"),
-        seed=123,
-        n_shots=4,
-        sample_frac=0.4,
+        seed=5,
+        n_shots=0,
+        sample_frac=0.2,
         models=tuple(models),
         prompt_versions=tuple(prompt_versions),
         max_questions_per_subject=max_q,
