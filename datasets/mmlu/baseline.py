@@ -86,6 +86,18 @@ def extract_letter_from_text(response_text: str) -> Optional[str]:
     match = re.search(r"\b([A-D])\b", response_text.upper())
     return match.group(1) if match else None
 
+def extract_letter_from_text_v2(response_text: str) -> Optional[str]:
+    text = response_text.upper()
+    
+    # 1. Explicit answer statement (most reliable for CoT)
+    m = re.search(r'(?:ANSWER IS|ANSWER:|THE ANSWER|THEREFORE)[^A-Z]*([A-D])\b', text)
+    if m:
+        return m.group(1)
+    
+    # 2. Last standalone letter as fallback
+    matches = re.findall(r'\b([A-D])\b', text)
+    return matches[-1] if matches else None
+
 def score_baseline_response(resp: Dict[str, Any]) -> Tuple[Optional[str], str]:
     """
     Returns (pred, notes). pred is A/B/C/D or None if not extractable.
@@ -96,7 +108,7 @@ def score_baseline_response(resp: Dict[str, Any]) -> Tuple[Optional[str], str]:
     text = (msg.get("content") or "").strip()
     #print(text)
 
-    pred = extract_letter_from_text(text)
+    pred = extract_letter_from_text_v2(text)
     if pred is None:
         return None, f"Regex extraction failed. Raw='{text[:120]}'"
     return pred, ""

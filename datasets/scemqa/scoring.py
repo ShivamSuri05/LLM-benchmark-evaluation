@@ -2,12 +2,15 @@ import re
 
 def extract_mc_answer(resp_json):
     try:
-        #print(resp_json)
         text = resp_json["choices"][0]["message"]["content"]
     except:
         return None, "Malformed response"
 
     text = text.strip()
+
+    # Exact single letter response (e.g. v4_detailed ends with just "D")
+    if re.fullmatch(r"[A-E]", text):
+        return text, "Exact single letter"
 
     # Look for "Answer: X"
     m = re.search(r"Answer\s*[:\-]?\s*\(?([A-E])\)?", text, re.IGNORECASE)
@@ -29,7 +32,7 @@ def extract_mc_answer(resp_json):
     if m:
         return m[-1], "Paren match"
 
-    # Last standalone letter
+    # Last standalone letter in text (works well for chain-of-thought v2)
     m = re.findall(r"\b([A-E])\b", text)
     if m:
         return m[-1], "Fallback last letter"

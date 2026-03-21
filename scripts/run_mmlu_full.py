@@ -460,13 +460,14 @@ def main() -> None:
     #models = ["openai/gpt-4o", "openai/gpt-3.5-turbo"]
 
     #prompt_versions = [PAPER_PROMPT_VERSION]
-    prompt_versions = [BASELINE_PROMPT_VERSION, BASELINE_PROMPT_VERSION_V2, BASELINE_PROMPT_VERSION_V3, BASELINE_PROMPT_VERSION_V4]
+    #prompt_versions = [BASELINE_PROMPT_VERSION, BASELINE_PROMPT_VERSION_V2, BASELINE_PROMPT_VERSION_V3, BASELINE_PROMPT_VERSION_V4]
+    prompt_versions = [BASELINE_PROMPT_VERSION_V2]
     models = ["openai/gpt-3.5-turbo"]
 
     cfg = FullRunConfig(
         mmlu_root=os.path.join(REPO_ROOT, "datasets/mmlu"),  # expects REPO_ROOT/data/dev and REPO_ROOT/data/test
         out_dir=os.path.join(REPO_ROOT, "outputs"),
-        seed=5,
+        seed=15,
         n_shots=0,
         sample_frac=0.2,
         models=tuple(models),
@@ -474,7 +475,7 @@ def main() -> None:
         max_questions_per_subject=max_q,
         max_subjects=max_subjects,
         base_url="https://openrouter.ai/api/v1",
-        baseline_max_tokens=5,
+        baseline_max_tokens=1000,
         baseline_temperature=0.0,
     )
     run(cfg)
