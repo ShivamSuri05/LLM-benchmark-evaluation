@@ -65,7 +65,7 @@ All experiments use the [OpenRouter](https://openrouter.ai) API for model access
 OPENROUTER_API_KEY=your_key_here
 ```
 
-In order to reproduce the benchmark evaluation experiments, run the scripts under the `scripts/` directory.. You can change the config of the scripts by changing values in the particular script file.
+In order to reproduce the benchmark evaluation experiments, run the scripts under the `scripts/` directory. You can change the config of the scripts by changing values in the particular script file.
 
 ```bash
 python scripts/run_scemqa_mcq.py
