@@ -1,0 +1,767 @@
+question_id,subject,model,mode,model_extracted_output,correct_answer,correct,notes,request_time_ms
+Polymer_Science_and_Technology_Fried_Example 1.1,Materials: Polymers,openai/o4-mini,text_only,"(31250,62000,1.984)","(31250, 62000, 1.98)",Y,llm_only,13180
+Polymer_Science_and_Technology_Fried_Example 1.3,Materials: Polymers,openai/o4-mini,text_only,"\bigl(-\frac{1}{\ln p},\;-\frac{2}{\ln p}\bigr)","($\frac{1}{1-p}$, $\frac{1+p}{1-p}$)",N,llm_only,22639
+Polymer_Science_and_Technology_Fried_Example 2.2,Materials: Polymers,openai/o4-mini,text_only,6.4141\times10^{4},64055,N,llm_only,15297
+Polymer_Science_and_Technology_Fried_Example 2.3,Materials: Polymers,openai/o4-mini,text_only,2.44×10^4,24324,N,llm_only,13619
+Polymer_Science_and_Technology_Fried_Example 13.1,Materials: Polymers,openai/o4-mini,text_only,1.08,1.073,N,llm_only,30304
+Introduction_to_Materials_Science_for_Engineers_Shackelford_Example 2.1,Materials: Metals,openai/o4-mini,text_only,6.7\times10^{10},6.64E+10,Y,llm_only,13148
+Introduction_to_Materials_Science_for_Engineers_Shackelford_Example 2.2,Structures: Composites,openai/o4-mini,text_only,3.60,3.60,N,llm_only,13196
+Introduction_to_Materials_Science_for_Engineers_Shackelford_Example 2.3,Materials: Metals,openai/o4-mini,text_only,"(13.97,2.408,2.408)","(13.97, 2.408, 24.08)",N,llm_only,26928
+Introduction_to_Materials_Science_for_Engineers_Shackelford_Example 2.6_1,Structures: Composites,openai/o4-mini,text_only,"(8.73\times10^{-9},8.73\times10^{-9})","($8.64 \times 10^{-9}$, $-8.64 \times 10^{-9}$)",N,llm_only,42247
+Introduction_to_Materials_Science_for_Engineers_Shackelford_Example 2.6_2,Materials: Metals,openai/o4-mini,text_only,"(2.97\times10^{-9},2.97\times10^{-9})","(2.98 \times 10^{-9}, -2.98 \times 10^{-9})",Y,llm_only,12050
+Introduction_to_Materials_Science_for_Engineers_Shackelford_Example 2.7,Materials: Metals,openai/o4-mini,text_only,0.732,0.732,N,llm_only,10603
+Introduction_to_Materials_Science_for_Engineers_Shackelford_Example 2.8,Materials: Ceramics,openai/o4-mini,text_only,"(6,2,8,6,4,6)","(6, 2, 8, 6, 4, 6)",Y,llm_only,13271
+Introduction_to_Materials_Science_for_Engineers_Shackelford_Example 2.9,Materials: Polymers,openai/o4-mini,text_only,-60,60,N,llm_only,11746
+Introduction_to_Materials_Science_for_Engineers_Shackelford_Example 2.11,Materials: Polymers,openai/o4-mini,text_only,128,126,N,llm_only,23858
+Introduction_to_Materials_Science_for_Engineers_Shackelford_Example 2.13,Fundamental: Atomic Bonding,openai/o4-mini,text_only,"(3.82\times10^{-10},-1.66\times10^{-21})","(0.382, -0.999)",N,llm_only,23939
+Introduction_to_Materials_Science_for_Engineers_Shackelford_Example 3.2,Materials: Metals,openai/o4-mini,text_only,8.87,8.89,Y,llm_only,21340
+Introduction_to_Materials_Science_for_Engineers_Shackelford_Example 3.4,Fundamental: Crystal Structure,openai/o4-mini,text_only,3.61,3.61,Y,llm_only,15271
+Introduction_to_Materials_Science_for_Engineers_Shackelford_Example 3.7,Materials: Semiconductors,openai/o4-mini,text_only,2.36\times10^{3},2.36,Y,llm_only,20820
+Introduction_to_Materials_Science_for_Engineers_Shackelford_Example 3.9,Fundamental: Crystal Structure,openai/o4-mini,text_only,"\bigl((0,0,0),(1/2,1/2,0)\bigr)","(000, $\frac{1}{2} \frac{1}{2} 0$, 110)",Y,llm_only,25943
+Introduction_to_Materials_Science_for_Engineers_Shackelford_Example 3.11,Fundamental: Crystal Structure,openai/o4-mini,text_only,35.26,35.3,N,llm_only,33235
+Introduction_to_Materials_Science_for_Engineers_Shackelford_Example 3.12,Properties: Mechanical,openai/o4-mini,text_only,"(a/3,-a,\;a)","($\frac{1}{3}$, -1, 1)",Y,llm_only,8061
+Introduction_to_Materials_Science_for_Engineers_Shackelford_Example 3.14,Materials: Metals,openai/o4-mini,text_only,"(3.65,1.43)","(3.65, 1.43)",Y,llm_only,33369
+Introduction_to_Materials_Science_for_Engineers_Shackelford_Example 3.15,Materials: Metals,openai/o4-mini,text_only,"(11.54,14.12)","(5.77, 14.1)",N,llm_only,55991
+Introduction_to_Materials_Science_for_Engineers_Shackelford_Example 3.17,Materials: Metals,openai/o4-mini,text_only,13.09,13.1,Y,llm_only,14293
+Introduction_to_Materials_Science_for_Engineers_Shackelford_Example 3.18,Materials: Semiconductors,openai/o4-mini,text_only,2.14,2.14,Y,llm_only,40623
+Introduction_to_Materials_Science_for_Engineers_Shackelford_Example 3.19,Materials: Metals,openai/o4-mini,text_only,3.95,7.91,N,llm_only,57865
+Introduction_to_Materials_Science_for_Engineers_Shackelford_Example 4.3,Materials: Metals,openai/o4-mini,text_only,1.38\times10^{24},1.38E+24,N,llm_only,11814
+Introduction_to_Materials_Science_for_Engineers_Shackelford_Example 4.4,Materials: Metals,openai/o4-mini,text_only,"(0.248,\;0.286)","(0.248, 0.286)",N,llm_only,10089
+Introduction_to_Materials_Science_for_Engineers_Shackelford_Example 4.6,Structures: Micro/Nano-structure,openai/o4-mini,text_only,4.01,4.01,N,llm_only,11994
+Introduction_to_Materials_Science_for_Engineers_Shackelford_Example 5.1,Materials: Metals,openai/o4-mini,text_only,329,328,Y,llm_only,14270
+Introduction_to_Materials_Science_for_Engineers_Shackelford_Example 5.4,Materials: Metals,openai/o4-mini,text_only,3.7\times10^{4},10.2,N,llm_only,11466
+Introduction_to_Materials_Science_for_Engineers_Shackelford_Example 5.7,Materials: Metals,openai/o4-mini,text_only,4.32\times10^{-4},4.32E-04,Y,llm_only,10664
+Introduction_to_Materials_Science_for_Engineers_Shackelford_Example 6.2,Materials: Metals,openai/o4-mini,text_only,3.18\times10^{-3},3.18E-03,Y,llm_only,17604
+Introduction_to_Materials_Science_for_Engineers_Shackelford_Example 6.3,Materials: Metals,openai/o4-mini,text_only,"(9.9964,\;10.0036)","(9.9964, 10.0036)",Y,llm_only,10378
+Introduction_to_Materials_Science_for_Engineers_Shackelford_Example 6.4,Materials: Glasses,openai/o4-mini,text_only,4.0\times10^7,57,N,llm_only,14271
+Introduction_to_Materials_Science_for_Engineers_Shackelford_Example 6.6,Materials: Metals,openai/o4-mini,text_only,"\bigl(1.2048\times10^{-3},\;0.76923,\;5.0\times10^{-6}\bigr)","(1.2 \times 10^{-3}, 0.77, 5.0 \times 10^{-6})",N,llm_only,8236
+Introduction_to_Materials_Science_for_Engineers_Shackelford_Example 6.7,Materials: Metals,openai/o4-mini,text_only,2.76\times10^{5},280,N,llm_only,9295
+Introduction_to_Materials_Science_for_Engineers_Shackelford_Example 6.8,Materials: Metals,openai/o4-mini,text_only,"(0.264,2.45)","(0.264, 2.45)",N,llm_only,9281
+Introduction_to_Materials_Science_for_Engineers_Shackelford_Example 6.9,Materials: Metals,openai/o4-mini,text_only,240,240,Y,llm_only,13653
+Introduction_to_Materials_Science_for_Engineers_Shackelford_Example 6.10,Materials: Metals,openai/o4-mini,text_only,8.7\times10^{-5},8.68E-05,N,llm_only,11763
+Introduction_to_Materials_Science_for_Engineers_Shackelford_Example 6.12,Materials: Elastomers,openai/o4-mini,text_only,"(41.6,40.5)","(41.5, 40.5)",N,llm_only,10365
+Introduction_to_Materials_Science_for_Engineers_Shackelford_Example 6.13,Materials: Glasses,openai/o4-mini,text_only,"(683,809,850,881)","(680, 858, 931, 993)",N,llm_only,13394
+Introduction_to_Materials_Science_for_Engineers_Shackelford_Example 7.2,Materials: Metals,openai/o4-mini,text_only,0.858,0.858,Y,llm_only,10984
+Introduction_to_Materials_Science_for_Engineers_Shackelford_Example 7.3,Materials: Metals,openai/o4-mini,text_only,1.99\times10^{6},1.99 \times 10^{6},Y,llm_only,8999
+Introduction_to_Materials_Science_for_Engineers_Shackelford_Example 7.4,Materials: Metals,openai/o4-mini,text_only,"(67500,106500,270000)","(67500, 106500, 282000)",Y,llm_only,12529
+Introduction_to_Materials_Science_for_Engineers_Shackelford_Example 8.2,Materials: Metals,openai/o4-mini,text_only,5.74\times10^{-3},5.74,Y,llm_only,7202
+Introduction_to_Materials_Science_for_Engineers_Shackelford_Example 8.3,Materials: Ceramics,openai/o4-mini,text_only,"(3.38\times10^{2},1.02\times10^{3})","(339, 1020)",Y,llm_only,16862
+Introduction_to_Materials_Science_for_Engineers_Shackelford_Example 8.6,Materials: Metals,openai/o4-mini,text_only,5.34\times 10^{-2},0.0534,Y,llm_only,7391
+Introduction_to_Materials_Science_for_Engineers_Shackelford_Example 9.1,Materials: Metals,openai/o4-mini,text_only,1,1,Y,llm_only,10359
+Introduction_to_Materials_Science_for_Engineers_Shackelford_Example 9.3,Materials: Metals,openai/o4-mini,text_only,"(0.333,0.667)","(333, 667)",N,llm_only,7342
+Introduction_to_Materials_Science_for_Engineers_Shackelford_Example 10.1,Materials: Metals,openai/o4-mini,text_only,1.81\times10^5,181,N,llm_only,12401
+Introduction_to_Materials_Science_for_Engineers_Shackelford_Example 11.1,Materials: Metals,openai/o4-mini,text_only,16.4,16.3,N,llm_only,10324
+Introduction_to_Materials_Science_for_Engineers_Shackelford_Example 11.2,Materials: Glasses,openai/o4-mini,text_only,"(21.65,\;15.06,\;63.29)","(21.6, 15.0, 63.3)",Y,llm_only,17750
+Introduction_to_Materials_Science_for_Engineers_Shackelford_Example 11.4,Materials: Ceramics,openai/o4-mini,text_only,698,698.0,Y,llm_only,15589
+Introduction_to_Materials_Science_for_Engineers_Shackelford_Example 11.5,Materials: Ceramics,openai/o4-mini,text_only,0.698,698,N,llm_only,15096
+Introduction_to_Materials_Science_for_Engineers_Shackelford_Example 11.6,Materials: Glasses,openai/o4-mini,text_only,"(485,509)","(485, 509)",Y,llm_only,19075
+Introduction_to_Materials_Science_for_Engineers_Shackelford_Example 12.2,Materials: Polymers,openai/o4-mini,text_only,15013,15010,N,llm_only,5434
+Introduction_to_Materials_Science_for_Engineers_Shackelford_Example 12.3,Materials: Polymers,openai/o4-mini,text_only,"(4.22,115.5)","(5.96, 189)",N,llm_only,31390
+Introduction_to_Materials_Science_for_Engineers_Shackelford_Example 12.5,Materials: Polymers,openai/o4-mini,text_only,1.39,1.39,Y,llm_only,14160
+Introduction_to_Materials_Science_for_Engineers_Shackelford_Example 12.6,Materials: Glasses,openai/o4-mini,text_only,"(84.4,\;2.108)","(84.3, 2.10)",N,llm_only,10557
+Introduction_to_Materials_Science_for_Engineers_Shackelford_Example 12.7,Materials: Metals,openai/o4-mini,text_only,2.827,2.83,N,llm_only,9830
+Introduction_to_Materials_Science_for_Engineers_Shackelford_Example 12.8,Materials: Glasses,openai/o4-mini,text_only,4.62\times10^4,4.62E+04,N,llm_only,12535
+Introduction_to_Materials_Science_for_Engineers_Shackelford_Example 12.9,Materials: Glasses,openai/o4-mini,text_only,0.65,0.65,Y,llm_only,9255
+Introduction_to_Materials_Science_for_Engineers_Shackelford_Example 12.10,Materials: Glasses,openai/o4-mini,text_only,5.49\times10^4,5.49E+04,N,llm_only,14002
+Introduction_to_Materials_Science_for_Engineers_Shackelford_Example 12.11,Materials: Metals,openai/o4-mini,text_only,"(6.61\times10^6,\;1.26\times10^7)","(6.61 \times 10^6, 12.6 \times 10^6)",Y,llm_only,14967
+Introduction_to_Materials_Science_for_Engineers_Shackelford_Example 13.2,Materials: Metals,openai/o4-mini,text_only,1.0\times10^{29},1.04E+29,N,llm_only,9245
+Introduction_to_Materials_Science_for_Engineers_Shackelford_Example 13.4,Materials: Metals,openai/o4-mini,text_only,1.75\times10^{-3},1.75E-03,Y,llm_only,7703
+Introduction_to_Materials_Science_for_Engineers_Shackelford_Example 13.6,Materials: Semiconductors,openai/o4-mini,text_only,1.8\times10^{-19},4.39 \times 10^{-10},N,llm_only,14898
+Introduction_to_Materials_Science_for_Engineers_Shackelford_Example 13.7,Materials: Metals,openai/o4-mini,text_only,2.54\times10^7,25.4 \times 10^{6},N,llm_only,16455
+Introduction_to_Materials_Science_for_Engineers_Shackelford_Example 13.8,Materials: Metals,openai/o4-mini,text_only,3.10\times10^{-8},3.1E-08,N,llm_only,7390
+Introduction_to_Materials_Science_for_Engineers_Shackelford_Example 13.10,Properties: Electrical,openai/o4-mini,text_only,1.7\times10^{10},1.7E+10,N,llm_only,9310
+Introduction_to_Materials_Science_for_Engineers_Shackelford_Example 13.13,Properties: Thermal,openai/o4-mini,text_only,2.8\times10^{-13},2.8E-13,N,llm_only,13490
+Introduction_to_Materials_Science_for_Engineers_Shackelford_Example 13.14,Materials: Semiconductors,openai/o4-mini,text_only,4.33\times10^{2},217,N,llm_only,18065
+Introduction_to_Materials_Science_for_Engineers_Shackelford_Example 13.15,Materials: Semiconductors,openai/o4-mini,text_only,0.35,0.349,N,llm_only,14194
+Introduction_to_Materials_Science_for_Engineers_Shackelford_Example 13.16,Materials: Semiconductors,openai/o4-mini,text_only,1.04\times10^{-5},1.04E-05,Y,llm_only,16280
+Introduction_to_Materials_Science_for_Engineers_Shackelford_Example 13.18,Materials: Semiconductors,openai/o4-mini,text_only,106.6,107,N,llm_only,18567
+Introduction_to_Materials_Science_for_Engineers_Shackelford_Example 13.19,Materials: Semiconductors,openai/o4-mini,text_only,12.9,1.03 \times 10^{21} \mathrm{~m}^{-3},N,llm_only,31929
+Introduction_to_Materials_Science_for_Engineers_Shackelford_Example 13.22,Materials: Semiconductors,openai/o4-mini,text_only,1.83\times10^{-5},1.84E-05,Y,llm_only,23516
+Introduction_to_Materials_Science_for_Engineers_Shackelford_Example 13.23,Materials: Semiconductors,openai/o4-mini,text_only,1.4\times10^{-6},1.26E-06,Y,llm_only,16654
+Introduction_to_Materials_Science_for_Engineers_Shackelford_Example 13.24,Materials: Semiconductors,openai/o4-mini,text_only,"(0.9091,\;0.0909)","(0.909, 0.091)",Y,llm_only,12927
+Introduction_to_Materials_Science_for_Engineers_Shackelford_Example 13.26,Materials: Semiconductors,openai/o4-mini,text_only,135,886,N,llm_only,20099
+Introduction_to_Materials_Science_for_Engineers_Shackelford_Example 14.1,Structures: Composites,openai/o4-mini,text_only,4.97\times10^{-19},3.1,N,llm_only,11835
+Introduction_to_Materials_Science_for_Engineers_Shackelford_Example 14.3,Materials: Polymers,openai/o4-mini,text_only,0.052,0.0519,N,llm_only,13365
+Introduction_to_Materials_Science_for_Engineers_Shackelford_Example 14.5,Materials: Metals,openai/o4-mini,text_only,"(1.77,3.10)","(2.84 \times 10^{-19}, 4.97 \times 10^{-19})",N,llm_only,12044
+Introduction_to_Materials_Science_for_Engineers_Shackelford_Example 14.6,Materials: Semiconductors,openai/o4-mini,text_only,8.44\times10^{-7},844,N,llm_only,12132
+Introduction_to_Materials_Science_for_Engineers_Shackelford_Example 14.7,Materials: Glasses,openai/o4-mini,text_only,83.3,83.3,Y,llm_only,16188
+Introduction_to_Materials_Science_for_Engineers_Shackelford_Example 14.8,Materials: Semiconductors,openai/o4-mini,text_only,4.79\times10^{-7},479,N,llm_only,8937
+Introduction_to_Materials_Science_for_Engineers_Shackelford_Example 14.12,Materials: Metals,openai/o4-mini,text_only,16,16,Y,llm_only,12165
+Introduction_to_Materials_Science_for_Engineers_Shackelford_Example 15.2,Materials: Hybrids,openai/o4-mini,text_only,23655000,2.37E+07,Y,llm_only,7941
+Introduction_to_Materials_Science_for_Engineers_Shackelford_Example 15.3,Materials: Semiconductors,openai/o4-mini,text_only,843,844,Y,llm_only,9180
+Introduction_to_Materials_Science_for_Engineers_Shackelford_Example 15.4,Materials: Metals,openai/o4-mini,text_only,1.68,1.68,N,llm_only,11049
+Introduction_to_Materials_Science_for_Engineers_Shackelford_PP 2.1,Materials: Metals,openai/o4-mini,text_only,"(3.39\times10^{10},\;2.59\times10^{10})","(3.38e10, 2.59e10)",Y,llm_only,18986
+Introduction_to_Materials_Science_for_Engineers_Shackelford_PP 2.3,Materials: Metals,openai/o4-mini,text_only,"(0.01922,\ 0.02635)","(19.23, 26.34)",N,llm_only,16272
+Introduction_to_Materials_Science_for_Engineers_Shackelford_PP 2.5,Structures: Composites,openai/o4-mini,text_only,"(-2.05\times10^{-8},2.05\times10^{-8})","(20.9e-9, -20.9e-9)",N,llm_only,16224
+Introduction_to_Materials_Science_for_Engineers_Shackelford_PP 2.6,Fundamental: Crystal Structure,openai/o4-mini,text_only,"(0.225, 0.414)","(0.225, 0.414)",Y,llm_only,19275
+Introduction_to_Materials_Science_for_Engineers_Shackelford_PP 2.10,Materials: Polymers,openai/o4-mini,text_only,"(-83,-28)","(60, 60)",N,llm_only,26707
+Introduction_to_Materials_Science_for_Engineers_Shackelford_PP 2.11,Materials: Polymers,openai/o4-mini,text_only,2.2\times10^3,794,N,llm_only,27305
+Introduction_to_Materials_Science_for_Engineers_Shackelford_PP 3.5,Properties: Mechanical,openai/o4-mini,text_only,3.34,3.45,N,llm_only,10298
+Introduction_to_Materials_Science_for_Engineers_Shackelford_PP 3.6,Materials: Polymers,openai/o4-mini,text_only,5.7\times10^{24},5.7E+24,Y,llm_only,25307
+Introduction_to_Materials_Science_for_Engineers_Shackelford_PP 3.12,Fundamental: Crystal Structure,openai/o4-mini,text_only,"(\{[100],[010],[001],[-100],[0\!-\!10],[00\!-\!1]\},
+\begin{array}{c}
+\text{Sketch: coordinate axes with arrows:}\\
+\quad\begin{array}{c}
+\;z\\
+\;↑\;[001]\quad\quad\quad[00\!-\!1]\;\downarrow\\
+o\longrightarrow\;[100]\quad\longleftarrow\;[-100]\\
+\;\bigl/\bigr.\quad[010]\quad\;\;\;[0\!-\!10]
+\end{array}
+\end{array}
+)","([100],[010],[001][100],[0 \overline{1} 0],[00 \overline{1}], )",Y,llm_only,12749
+Introduction_to_Materials_Science_for_Engineers_Shackelford_PP 3.13,Fundamental: Crystal Structure,openai/o4-mini,text_only,"(45,54.7356)","(45, 54.7)",Y,llm_only,11392
+Introduction_to_Materials_Science_for_Engineers_Shackelford_PP 3.16,Materials: Metals,openai/o4-mini,text_only,"(0.2517,0.0410)","(4.03, 1.63)",N,llm_only,24863
+Introduction_to_Materials_Science_for_Engineers_Shackelford_PP 3.17,Materials: Metals,openai/o4-mini,text_only,"(0.0703,\;0.1864)","(7.04, 18.5)",N,llm_only,34282
+Introduction_to_Materials_Science_for_Engineers_Shackelford_PP 3.18,Properties: Mechanical,openai/o4-mini,text_only,2.40\times10^9,1.21,N,llm_only,17225
+Introduction_to_Materials_Science_for_Engineers_Shackelford_PP 3.19,Properties: Mechanical,openai/o4-mini,text_only,\frac{4}{a^2\sqrt{3}},10.2,N,llm_only,22162
+Introduction_to_Materials_Science_for_Engineers_Shackelford_PP 3.20,Materials: Semiconductors,openai/o4-mini,text_only,2.04\times10^{9},2.05,N,llm_only,18991
+Introduction_to_Materials_Science_for_Engineers_Shackelford_PP 3.21,Materials: Semiconductors,openai/o4-mini,text_only,,7.27,N,llm_only,183341
+Introduction_to_Materials_Science_for_Engineers_Shackelford_PP 4.3,Materials: Metals,openai/o4-mini,text_only,5.32\times10^{25},5.31E+25,N,llm_only,12357
+Introduction_to_Materials_Science_for_Engineers_Shackelford_PP 4.4,Materials: Metals,openai/o4-mini,text_only,0.3209,0.320,N,llm_only,19953
+Introduction_to_Materials_Science_for_Engineers_Shackelford_PP 6.7,Materials: Metals,openai/o4-mini,text_only,"(0.2866,0.2880)","(0.2864, 0.2887)",N,llm_only,22691
+Introduction_to_Materials_Science_for_Engineers_Shackelford_PP 6.9,Materials: Metals,openai/o4-mini,text_only,4.24,4.08,N,llm_only,14212
+Introduction_to_Materials_Science_for_Engineers_Shackelford_PP 7.1,Materials: Metals,openai/o4-mini,text_only,393,385,N,llm_only,9158
+Introduction_to_Materials_Science_for_Engineers_Shackelford_PP 7.2,Materials: Ceramics,openai/o4-mini,text_only,4.875\times10^{-4},0.517,N,llm_only,9647
+Introduction_to_Materials_Science_for_Engineers_Shackelford_PP 7.3,Materials: Metals,openai/o4-mini,text_only,2.0\times10^{6},1.86E+06,N,llm_only,16310
+Introduction_to_Materials_Science_for_Engineers_Shackelford_PP 8.1,Materials: Metals,openai/o4-mini,text_only,0.308,\leq 0.20,N,llm_only,16314
+Introduction_to_Materials_Science_for_Engineers_Shackelford_PP 9.1,Materials: Metals,openai/o4-mini,text_only,"(2,1,0)","(2, 1, 0)",N,llm_only,9838
+Introduction_to_Materials_Science_for_Engineers_Shackelford_PP 11.1,Materials: Metals,openai/o4-mini,text_only,"(2.71,2.75)","(2.75, 2.91)",N,llm_only,20170
+Introduction_to_Materials_Science_for_Engineers_Shackelford_PP 12.1,Materials: Polymers,openai/o4-mini,text_only,"(0.1214,0.0607)","(0.243, 0.121)",N,llm_only,20760
+Introduction_to_Materials_Science_for_Engineers_Shackelford_PP 12.2,Materials: Polymers,openai/o4-mini,text_only,833,833,Y,llm_only,7703
+Introduction_to_Materials_Science_for_Engineers_Shackelford_PP 12.7,Materials: Hybrids,openai/o4-mini,text_only,14.13,14.1,N,llm_only,6672
+Introduction_to_Materials_Science_for_Engineers_Shackelford_PP 12.8,Materials: Glasses,openai/o4-mini,text_only,37.75,3.97E+04,N,llm_only,16308
+Introduction_to_Materials_Science_for_Engineers_Shackelford_PP 13.2,Materials: Metals,openai/o4-mini,text_only,6.7\times10^{23},8.17E+23,N,llm_only,10252
+Introduction_to_Materials_Science_for_Engineers_Shackelford_PP 13.6,Materials: Semiconductors,openai/o4-mini,text_only,3.3\times10^{-18},2.32E-09,N,llm_only,10650
+Introduction_to_Materials_Science_for_Engineers_Shackelford_PP 13.7,Materials: Metals,openai/o4-mini,text_only,"(3.41\times10^7,9.87\times10^6)","(34.0e6, 10.0e6)",N,llm_only,18303
+Introduction_to_Materials_Science_for_Engineers_Shackelford_PP 13.8,Materials: Metals,openai/o4-mini,text_only,3.04\times10^{-8},4.32E-08,N,llm_only,23255
+Introduction_to_Materials_Science_for_Engineers_Shackelford_PP 13.13,Materials: Semiconductors,openai/o4-mini,text_only,"(3.99\times10^{-4},2.50\times10^{3})","(3.99e-4, 2.50e3)",Y,llm_only,11984
+Introduction_to_Materials_Science_for_Engineers_Shackelford_PP 13.21,Materials: Semiconductors,openai/o4-mini,text_only,6.1\times10^3,2.2E+04,N,llm_only,22423
+Introduction_to_Materials_Science_for_Engineers_Shackelford_PP 13.22,Materials: Semiconductors,openai/o4-mini,text_only,"(0.989,0.011)","(0.9944, 0.0056)",N,llm_only,13557
+Introduction_to_Materials_Science_for_Engineers_Shackelford_PP 14.1,Properties: Mechanical,openai/o4-mini,text_only,2.84\times10^{-19},1.77,N,llm_only,14097
+Introduction_to_Materials_Science_for_Engineers_Shackelford_PP 14.3,Materials: Polymers,openai/o4-mini,text_only,"(0.0388,\;0.0222)","(0.0362, 0.0222)",N,llm_only,12446
+Introduction_to_Materials_Science_for_Engineers_Shackelford_PP 14.4,Properties: Optical,openai/o4-mini,text_only,0.0758,0.0758,Y,llm_only,8074
+Introduction_to_Materials_Science_for_Engineers_Shackelford_PP 14.12,Materials: Metals,openai/o4-mini,text_only,8,8,Y,llm_only,10693
+Introduction_to_Materials_Science_for_Engineers_Shackelford_PP 14.17,Materials: Ceramics,openai/o4-mini,text_only,"(0,80,0.89)","(0, 80, 0.89)",Y,llm_only,20036
+Introduction_to_Materials_Science_for_Engineers_Shackelford_PP 15.7,Materials: Metals,openai/o4-mini,text_only,32.3,0.0323,N,llm_only,9717
+Introduction_to_Materials_Science_for_Engineers_Shackelford_2.1,Materials: Metals,openai/o4-mini,text_only,1.04\times10^{22},1.04E+22,Y,llm_only,11557
+Introduction_to_Materials_Science_for_Engineers_Shackelford_2.3,Materials: Semiconductors,openai/o4-mini,text_only,"(3.31\times10^{15},6.62\times10^{15})","(3.31e15, 6.62e15)",Y,llm_only,16615
+Introduction_to_Materials_Science_for_Engineers_Shackelford_2.5,Materials: Metals,openai/o4-mini,text_only,"(9.2\times10^{11},1.38\times10^{12})","(0.92e12, 1.38e12)",Y,llm_only,24465
+Introduction_to_Materials_Science_for_Engineers_Shackelford_2.7,Materials: Metals,openai/o4-mini,text_only,"(3.72\times10^{23},0.617)","(0.372e24, 0.617)",Y,llm_only,15406
+Introduction_to_Materials_Science_for_Engineers_Shackelford_2.9,Materials: Metals,openai/o4-mini,text_only,"(1.43,6.51\times10^{-4})","(1.41, 6.50e-4)",N,llm_only,39071
+Introduction_to_Materials_Science_for_Engineers_Shackelford_2.25,Materials: Ceramics,openai/o4-mini,text_only,2.6\times10^{-8},2.21E-08,N,llm_only,15747
+Introduction_to_Materials_Science_for_Engineers_Shackelford_2.27,Properties: Thermal,openai/o4-mini,text_only,\frac{\pi^2}{12},1.645,N,llm_only,26176
+Introduction_to_Materials_Science_for_Engineers_Shackelford_2.31,Materials: Elastomers,openai/o4-mini,text_only,"-84,-948","(60, 678)",N,llm_only,28004
+Introduction_to_Materials_Science_for_Engineers_Shackelford_2.35,Materials: Polymers,openai/o4-mini,text_only,60070,60068,N,llm_only,14637
+Introduction_to_Materials_Science_for_Engineers_Shackelford_2.49,Materials: Metals,openai/o4-mini,text_only,3.92\times10^2,392,N,llm_only,19923
+Introduction_to_Materials_Science_for_Engineers_Shackelford_3.15,Structures: Composites,openai/o4-mini,text_only,10.96,10.9,N,llm_only,15960
+Introduction_to_Materials_Science_for_Engineers_Shackelford_3.19,Materials: Polymers,openai/o4-mini,text_only,-1.33\times10^{-19},1.24,N,llm_only,43217
+Introduction_to_Materials_Science_for_Engineers_Shackelford_3.21,Materials: Polymers,openai/o4-mini,text_only,0.101,0.12,N,llm_only,55079
+Introduction_to_Materials_Science_for_Engineers_Shackelford_3.27,Fundamental: Crystal Structure,openai/o4-mini,text_only,"(26.565,26.565)","(26.6, 26.6)",Y,llm_only,20586
+Introduction_to_Materials_Science_for_Engineers_Shackelford_3.31,Fundamental: Diffusion & Kinetics,openai/o4-mini,text_only,[0-11],[0 \overline{1} 1],N,llm_only,20289
+Introduction_to_Materials_Science_for_Engineers_Shackelford_3.77,Materials: Metals,openai/o4-mini,text_only,"(100,\;002,\;101)","((100), (002), (101))",Y,llm_only,16028
+Introduction_to_Materials_Science_for_Engineers_Shackelford_4.13,Materials: Semiconductors,openai/o4-mini,text_only,"(8.00\times10^{-6},7.69\times10^{-6})","(8.00e-6, 7.69e-6)",Y,llm_only,20958
+Introduction_to_Materials_Science_for_Engineers_Shackelford_4.15,Materials: Semiconductors,openai/o4-mini,text_only,"(8.00\times10^{-6}, 8.84\times10^{-6})","(8.00e-6, 8.83e-6)",Y,llm_only,20879
+Introduction_to_Materials_Science_for_Engineers_Shackelford_4.17,Materials: Semiconductors,openai/o4-mini,text_only,5.0\times10^{21},5E+21,N,llm_only,11903
+Introduction_to_Materials_Science_for_Engineers_Shackelford_4.19,Materials: Semiconductors,openai/o4-mini,text_only,2.7\times 10^{23},2.69E+23,Y,llm_only,14126
+Introduction_to_Materials_Science_for_Engineers_Shackelford_4.21,Materials: Metals,openai/o4-mini,text_only,"\bigl(\tfrac{8}{3},\;\tfrac{4}{3}\bigr)","(2.67, 1.33)",Y,llm_only,18116
+Introduction_to_Materials_Science_for_Engineers_Shackelford_5.1,Materials: Ceramics,openai/o4-mini,text_only,4.99\times10^5,500,N,llm_only,19071
+Introduction_to_Materials_Science_for_Engineers_Shackelford_5.3,Materials: Ceramics,openai/o4-mini,text_only,2.9\times10^5,290,N,llm_only,17866
+Introduction_to_Materials_Science_for_Engineers_Shackelford_5.17,Materials: Metals,openai/o4-mini,text_only,4.18\times10^{-15},4.1E-15,Y,llm_only,23700
+Introduction_to_Materials_Science_for_Engineers_Shackelford_5.19,Materials: Metals,openai/o4-mini,text_only,1.6\times10^{-13},1.65E-13,Y,llm_only,21297
+Introduction_to_Materials_Science_for_Engineers_Shackelford_5.21,Materials: Metals,openai/o4-mini,text_only,2.64\times10^5,264,Y,llm_only,13125
+Introduction_to_Materials_Science_for_Engineers_Shackelford_5.25,Materials: Metals,openai/o4-mini,text_only,3.24\times10^{-4},3.24E-04,Y,llm_only,12724
+Introduction_to_Materials_Science_for_Engineers_Shackelford_6.1,Materials: Metals,openai/o4-mini,text_only,108000,108,N,llm_only,22586
+Introduction_to_Materials_Science_for_Engineers_Shackelford_6.7,Properties: Mechanical,openai/o4-mini,text_only,"(2.96,2.39\times10^{-5})","(2.96, 2.39e-5)",Y,llm_only,18843
+Introduction_to_Materials_Science_for_Engineers_Shackelford_6.17,Materials: Glasses,openai/o4-mini,text_only,1.2\times10^{-4},4.69,N,llm_only,27136
+Introduction_to_Materials_Science_for_Engineers_Shackelford_6.19,Materials: Polymers,openai/o4-mini,text_only,8.97\times10^{9},8970,N,llm_only,15008
+Introduction_to_Materials_Science_for_Engineers_Shackelford_6.23,Materials: Metals,openai/o4-mini,text_only,9.75\times10^7,97.5,N,llm_only,11372
+Introduction_to_Materials_Science_for_Engineers_Shackelford_6.45,Materials: Metals,openai/o4-mini,text_only,"560,690","(400, 550)",N,llm_only,58171
+Introduction_to_Materials_Science_for_Engineers_Shackelford_6.49,Materials: Metals,openai/o4-mini,text_only,"\bigl(2.54\times10^{5},\;1.6\times10^{-7},\;\text{constant‐mechanismArrhenius creep}\bigr)","(252, 1.75e-5)",N,llm_only,29510
+Introduction_to_Materials_Science_for_Engineers_Shackelford_6.53,Materials: Ceramics,openai/o4-mini,text_only,"(30.3,303)","(30.3, 303)",Y,llm_only,14642
+Introduction_to_Materials_Science_for_Engineers_Shackelford_6.57,Materials: Elastomers,openai/o4-mini,text_only,"(246.6,\;0.612,\;0.333,\;0.171)","(247, 0.612, 0.333, 0.171)",N,llm_only,15768
+Introduction_to_Materials_Science_for_Engineers_Shackelford_6.61,Materials: Glasses,openai/o4-mini,text_only,"3.79\times10^{5},236,250","(405, (759, 1010), (1120, 1218))",N,llm_only,46881
+Introduction_to_Materials_Science_for_Engineers_Shackelford_7.1,Materials: Metals,openai/o4-mini,text_only,"(67500,\;106500,\;285000)","(66600, 107000, 282000)",N,llm_only,15502
+Introduction_to_Materials_Science_for_Engineers_Shackelford_7.3,Materials: Metals,openai/o4-mini,text_only,2.9\times10^3,2940,N,llm_only,14226
+Introduction_to_Materials_Science_for_Engineers_Shackelford_7.5,Materials: Metals,openai/o4-mini,text_only,0.01007,10.07,N,llm_only,15751
+Introduction_to_Materials_Science_for_Engineers_Shackelford_7.7,Materials: Metals,openai/o4-mini,text_only,47.73,49.4,N,llm_only,24466
+Introduction_to_Materials_Science_for_Engineers_Shackelford_7.9,Materials: Ceramics,openai/o4-mini,text_only,13500,-11.7,N,llm_only,13765
+Introduction_to_Materials_Science_for_Engineers_Shackelford_7.21,Materials: Ceramics,openai/o4-mini,text_only,1.12\times10^3,-1.12,N,llm_only,7274
+Introduction_to_Materials_Science_for_Engineers_Shackelford_8.11,Materials: Semiconductors,openai/o4-mini,text_only,1.3\times10^{-4},57 \mu \mathrm{~m} \leq a \leq 88 \mu \mathrm{~m},N,llm_only,20368
+Introduction_to_Materials_Science_for_Engineers_Shackelford_8.13,Materials: Ceramics,openai/o4-mini,text_only,2\times10^{-4},286,N,llm_only,23883
+Introduction_to_Materials_Science_for_Engineers_Shackelford_8.19,Materials: Polymers,openai/o4-mini,text_only,1.0\times10^8,226,N,llm_only,20085
+Introduction_to_Materials_Science_for_Engineers_Shackelford_8.23,Materials: Metals,openai/o4-mini,text_only,21.7,52.8,N,llm_only,21576
+Introduction_to_Materials_Science_for_Engineers_Shackelford_8.33,Materials: Metals,openai/o4-mini,text_only,"(5.0\times10^{-2},-5.0\times10^{-2})","(0.14, -0.13)",N,llm_only,34969
+Introduction_to_Materials_Science_for_Engineers_Shackelford_9.3,Materials: Metals,openai/o4-mini,text_only,"(2,1,2)","(2, 1, 2)",Y,llm_only,11320
+Introduction_to_Materials_Science_for_Engineers_Shackelford_9.39,Materials: Ceramics,openai/o4-mini,text_only,0.282,0.928,N,llm_only,22084
+Introduction_to_Materials_Science_for_Engineers_Shackelford_9.61,Materials: Metals,openai/o4-mini,text_only,"(58.0,59.0)","(58.2, 58.8)",Y,llm_only,46989
+Introduction_to_Materials_Science_for_Engineers_Shackelford_10.1,Materials: Metals,openai/o4-mini,text_only,1.1\times10^{-13},8.43E+12,N,llm_only,12247
+Introduction_to_Materials_Science_for_Engineers_Shackelford_10.23,Materials: Metals,openai/o4-mini,text_only,"(10,10)","($>\approx 10^{\circ} \mathrm{C} / \mathrm{s}$, $<\approx 10^{\circ} \mathrm{C} / \mathrm{s}$)",Y,llm_only,24289
+Introduction_to_Materials_Science_for_Engineers_Shackelford_10.25,Materials: Metals,openai/o4-mini,text_only,28.6\,84.6,N,llm_only,15760
+Introduction_to_Materials_Science_for_Engineers_Shackelford_10.27,Materials: Metals,openai/o4-mini,text_only,62,C53,N,llm_only,14478
+Introduction_to_Materials_Science_for_Engineers_Shackelford_10.31,Materials: Metals,openai/o4-mini,text_only,"(6150,\;4340)","(4340, 9840)",N,llm_only,16619
+Introduction_to_Materials_Science_for_Engineers_Shackelford_10.33,Materials: Metals,openai/o4-mini,text_only,316,400,N,llm_only,17439
+Introduction_to_Materials_Science_for_Engineers_Shackelford_10.39,Materials: Metals,openai/o4-mini,text_only,30.6,31,N,llm_only,7988
+Introduction_to_Materials_Science_for_Engineers_Shackelford_10.45,Materials: Ceramics,openai/o4-mini,text_only,4.75\times10^5,475,Y,llm_only,12239
+Introduction_to_Materials_Science_for_Engineers_Shackelford_11.1,Materials: Metals,openai/o4-mini,text_only,"(7.85,99.7)","(7.85, 99.7)",N,llm_only,20282
+Introduction_to_Materials_Science_for_Engineers_Shackelford_11.3,Materials: Metals,openai/o4-mini,text_only,"(8.8,6160)","(5.94, 4158)",N,llm_only,18622
+Introduction_to_Materials_Science_for_Engineers_Shackelford_11.5,Materials: Metals,openai/o4-mini,text_only,333,332,N,llm_only,15831
+Introduction_to_Materials_Science_for_Engineers_Shackelford_11.7,Materials: Metals,openai/o4-mini,text_only,10.11,10.1,N,llm_only,16547
+Introduction_to_Materials_Science_for_Engineers_Shackelford_11.13,Materials: Metals,openai/o4-mini,text_only,0.3462,0.346,N,llm_only,10842
+Introduction_to_Materials_Science_for_Engineers_Shackelford_11.15,Materials: Glasses,openai/o4-mini,text_only,"(13.75,9.88,76.38)","(13.7, 9.9, 76.4)",Y,llm_only,25199
+Introduction_to_Materials_Science_for_Engineers_Shackelford_11.17,Materials: Glasses,openai/o4-mini,text_only,42.1875,42.2,N,llm_only,7724
+Introduction_to_Materials_Science_for_Engineers_Shackelford_11.19,Materials: Glasses,openai/o4-mini,text_only,1.30\times10^{-9},1.30,N,llm_only,17321
+Introduction_to_Materials_Science_for_Engineers_Shackelford_11.21,Materials: Ceramics,openai/o4-mini,text_only,4.26\times10^{-8},0.0425,Y,llm_only,22041
+Introduction_to_Materials_Science_for_Engineers_Shackelford_11.27,Materials: Metals,openai/o4-mini,text_only,"(420,24)","(450, 8)",N,llm_only,23518
+Introduction_to_Materials_Science_for_Engineers_Shackelford_11.33,Materials: Glasses,openai/o4-mini,text_only,512,512,Y,llm_only,12469
+Introduction_to_Materials_Science_for_Engineers_Shackelford_11.35,Materials: Metals,openai/o4-mini,text_only,22.64,22.6,Y,llm_only,10134
+Introduction_to_Materials_Science_for_Engineers_Shackelford_12.1,Materials: Polymers,openai/o4-mini,text_only,2.1039\times 10^{4},21040,N,llm_only,8884
+Introduction_to_Materials_Science_for_Engineers_Shackelford_12.7,Materials: Elastomers,openai/o4-mini,text_only,34060,34060,Y,llm_only,9410
+Introduction_to_Materials_Science_for_Engineers_Shackelford_12.9,Materials: Polymers,openai/o4-mini,text_only,612,612,Y,llm_only,14167
+Introduction_to_Materials_Science_for_Engineers_Shackelford_12.11,Materials: Elastomers,openai/o4-mini,text_only,1,0.552,N,llm_only,16026
+Introduction_to_Materials_Science_for_Engineers_Shackelford_12.13,Materials: Polymers,openai/o4-mini,text_only,7.10\times10^{-8},101,N,llm_only,19948
+Introduction_to_Materials_Science_for_Engineers_Shackelford_12.17,Materials: Polymers,openai/o4-mini,text_only,"(5.00\times10^{4},\;5.68,\;127)","(50010, 4.87, 126)",N,llm_only,16563
+Introduction_to_Materials_Science_for_Engineers_Shackelford_12.19,Materials: Polymers,openai/o4-mini,text_only,393,393,Y,llm_only,9000
+Introduction_to_Materials_Science_for_Engineers_Shackelford_12.23,Materials: Polymers,openai/o4-mini,text_only,60,3.61E+25,N,llm_only,14814
+Introduction_to_Materials_Science_for_Engineers_Shackelford_12.25,Materials: Elastomers,openai/o4-mini,text_only,2.13\times10^{-2},0.0426,N,llm_only,17225
+Introduction_to_Materials_Science_for_Engineers_Shackelford_12.27,Materials: Polymers,openai/o4-mini,text_only,"(49.7,\;1.532)","(49.7, 1.53)",N,llm_only,13677
+Introduction_to_Materials_Science_for_Engineers_Shackelford_12.33,Materials: Polymers,openai/o4-mini,text_only,22.95,23.0,N,llm_only,9762
+Introduction_to_Materials_Science_for_Engineers_Shackelford_12.35,Materials: Polymers,openai/o4-mini,text_only,1.50,1.50,Y,llm_only,8516
+Introduction_to_Materials_Science_for_Engineers_Shackelford_12.41,Materials: Hybrids,openai/o4-mini,text_only,9.62,9.58,N,llm_only,11354
+Introduction_to_Materials_Science_for_Engineers_Shackelford_12.43,Materials: Polymers,openai/o4-mini,text_only,281.05,2.89E+05,N,llm_only,12967
+Introduction_to_Materials_Science_for_Engineers_Shackelford_12.45,Materials: Metals,openai/o4-mini,text_only,274,2.86E+05,N,llm_only,10112
+Introduction_to_Materials_Science_for_Engineers_Shackelford_12.51,Materials: Glasses,openai/o4-mini,text_only,0.385,0.34,N,llm_only,14599
+Introduction_to_Materials_Science_for_Engineers_Shackelford_12.55,Materials: Metals,openai/o4-mini,text_only,29.7\,4.1 to 16,N,llm_only,28161
+Introduction_to_Materials_Science_for_Engineers_Shackelford_12.59,Materials: Metals,openai/o4-mini,text_only,77.8,7.96E+06,N,llm_only,9508
+Introduction_to_Materials_Science_for_Engineers_Shackelford_12.63,Materials: Metals,openai/o4-mini,text_only,9.42\times10^{7},9.42E+07,Y,llm_only,22376
+Introduction_to_Materials_Science_for_Engineers_Shackelford_12.67,Materials: Polymers,openai/o4-mini,text_only,"\text{Acrylics (Lucite), Nylon66, Polycarbonate}",0.341,Y,llm_only,12440
+Introduction_to_Materials_Science_for_Engineers_Shackelford_13.3,Materials: Semiconductors,openai/o4-mini,text_only,"(33.3,1.8\times10^{-5})","(33.3, 18.0)",N,llm_only,11255
+Introduction_to_Materials_Science_for_Engineers_Shackelford_13.5,Materials: Metals,openai/o4-mini,text_only,4.5,4.71,N,llm_only,9198
+Introduction_to_Materials_Science_for_Engineers_Shackelford_13.7,Materials: Metals,openai/o4-mini,text_only,4.49\times10^2,734,N,llm_only,9783
+Introduction_to_Materials_Science_for_Engineers_Shackelford_13.9,Materials: Metals,openai/o4-mini,text_only,1.27\times10^3,994,N,llm_only,10387
+Introduction_to_Materials_Science_for_Engineers_Shackelford_13.11,Structures: Composites,openai/o4-mini,text_only,"(1.33\times10^{-3},2.22\times10^{-3})","(0.0353, 0.0451)",N,llm_only,24307
+Introduction_to_Materials_Science_for_Engineers_Shackelford_13.13,Materials: Semiconductors,openai/o4-mini,text_only,"(1.7\times10^{-38},2.0\times10^{-25},3.8\times10^{-12})","(3.75e-13, 1.79e-6)",N,llm_only,17998
+Introduction_to_Materials_Science_for_Engineers_Shackelford_13.15,Materials: Metals,openai/o4-mini,text_only,3.48\times10^{-2},34.8,N,llm_only,12140
+Introduction_to_Materials_Science_for_Engineers_Shackelford_13.21,Materials: Metals,openai/o4-mini,text_only,8.8,8.80,Y,llm_only,16649
+Introduction_to_Materials_Science_for_Engineers_Shackelford_13.27,Materials: Metals,openai/o4-mini,text_only,2220,2210,N,llm_only,20286
+Introduction_to_Materials_Science_for_Engineers_Shackelford_13.31,Materials: Semiconductors,openai/o4-mini,text_only,2.9\times10^{-5},2.89E-05,N,llm_only,10539
+Introduction_to_Materials_Science_for_Engineers_Shackelford_13.33,Materials: Ceramics,openai/o4-mini,text_only,1.20\times10^{-4},1.2E-04,N,llm_only,14580
+Introduction_to_Materials_Science_for_Engineers_Shackelford_13.39,Properties: Mechanical,openai/o4-mini,text_only,109,109,Y,llm_only,11819
+Introduction_to_Materials_Science_for_Engineers_Shackelford_13.43,Properties: Thermal,openai/o4-mini,text_only,5.4\times10^{-10},5.2E-10,N,llm_only,13833
+Introduction_to_Materials_Science_for_Engineers_Shackelford_13.45,Materials: Semiconductors,openai/o4-mini,text_only,"(0.67,0.33,0.80,0.20)","(0.657, 0.343, 0.950, 0.050)",Y,llm_only,14144
+Introduction_to_Materials_Science_for_Engineers_Shackelford_13.47,Materials: Semiconductors,openai/o4-mini,text_only,1.74\times10^4,1.74E+04,Y,llm_only,11305
+Introduction_to_Materials_Science_for_Engineers_Shackelford_13.51,Materials: Semiconductors,openai/o4-mini,text_only,4.7,4.77,N,llm_only,15810
+Introduction_to_Materials_Science_for_Engineers_Shackelford_13.53,Materials: Semiconductors,openai/o4-mini,text_only,"(9.07\times10^{-6},\;4.53\times10^{21})","(9.07e-6, 4.54e21)",Y,llm_only,25230
+Introduction_to_Materials_Science_for_Engineers_Shackelford_13.65,Materials: Metals,openai/o4-mini,text_only,,317,N,llm_only,134815
+Introduction_to_Materials_Science_for_Engineers_Shackelford_13.67,Materials: Metals,openai/o4-mini,text_only,"(8.3\times10^{-11},1.1\times10^{-6},2.9\times10^{2})","(1.11e-10, 9.31e-7, 289)",N,llm_only,35112
+Introduction_to_Materials_Science_for_Engineers_Shackelford_13.73,Materials: Semiconductors,openai/o4-mini,text_only,7.7,7.5,N,llm_only,14562
+Introduction_to_Materials_Science_for_Engineers_Shackelford_13.75,Materials: Semiconductors,openai/o4-mini,text_only,0.10,0.1,N,llm_only,18063
+Introduction_to_Materials_Science_for_Engineers_Shackelford_13.77,Materials: Semiconductors,openai/o4-mini,text_only,"(0.955,\;0.045)","(0.973, 0.027)",N,llm_only,11233
+Introduction_to_Materials_Science_for_Engineers_Shackelford_13.79,Materials: Metals,openai/o4-mini,text_only,10,2.76,N,llm_only,19595
+Introduction_to_Materials_Science_for_Engineers_Shackelford_13.83,Materials: Semiconductors,openai/o4-mini,text_only,"(1.0\times10^3,\;7.4\times10^3,\;6.3\times10^9)","(1e3, 7.14e3, 5.14)",N,llm_only,27779
+Introduction_to_Materials_Science_for_Engineers_Shackelford_13.89,Materials: Semiconductors,openai/o4-mini,text_only,3.76832\times10^7,3.8E+07,N,llm_only,14776
+Introduction_to_Materials_Science_for_Engineers_Shackelford_13.91,Materials: Metals,openai/o4-mini,text_only,3.88\times10^7,3.81E+07,N,llm_only,17254
+Introduction_to_Materials_Science_for_Engineers_Shackelford_14.1,Structures: Composites,openai/o4-mini,text_only,"(4.3168\times10^{14},2.8619\times10^{-19})","(3.318e14, 1.786)",N,llm_only,15541
+Introduction_to_Materials_Science_for_Engineers_Shackelford_14.3,Materials: Glasses,openai/o4-mini,text_only,13.7,16.9,Y,llm_only,13521
+Introduction_to_Materials_Science_for_Engineers_Shackelford_14.5,Materials: Ceramics,openai/o4-mini,text_only,"41.1,41.1","(40.98, 41.47)",N,llm_only,19875
+Introduction_to_Materials_Science_for_Engineers_Shackelford_14.7,Materials: Glasses,openai/o4-mini,text_only,31.4,34.0,N,llm_only,19052
+Introduction_to_Materials_Science_for_Engineers_Shackelford_14.9,Materials: Polymers,openai/o4-mini,text_only,40.8,40.8,Y,llm_only,13066
+Introduction_to_Materials_Science_for_Engineers_Shackelford_14.11,Materials: Polymers,openai/o4-mini,text_only,323,323,Y,llm_only,10121
+Introduction_to_Materials_Science_for_Engineers_Shackelford_14.15,Structures: Composites,openai/o4-mini,text_only,7.14,7.14,Y,llm_only,13594
+Introduction_to_Materials_Science_for_Engineers_Shackelford_14.19,Properties: Optical,openai/o4-mini,text_only,4.87\times10^{-6},4.87,N,llm_only,15521
+Introduction_to_Materials_Science_for_Engineers_Shackelford_14.21,Materials: Semiconductors,openai/o4-mini,text_only,"(400,\;548.7)","(400, 549)",N,llm_only,10539
+Introduction_to_Materials_Science_for_Engineers_Shackelford_14.23,Properties: Magnetic,openai/o4-mini,text_only,"(0.2513,-10)","(0.251, 10)",N,llm_only,20108
+Introduction_to_Materials_Science_for_Engineers_Shackelford_14.27,Materials: Metals,openai/o4-mini,text_only,0.99995,0.99995,N,llm_only,13488
+Introduction_to_Materials_Science_for_Engineers_Shackelford_14.29,Materials: Metals,openai/o4-mini,text_only,"(0.36,-25)","(0.36, -25)",Y,llm_only,7987
+Introduction_to_Materials_Science_for_Engineers_Shackelford_14.31,Materials: Metals,openai/o4-mini,text_only,"(0.92,-17.9)","(0.92, -18)",Y,llm_only,18550
+Introduction_to_Materials_Science_for_Engineers_Shackelford_14.35,Materials: Metals,openai/o4-mini,text_only,"(3.71\times10^{-22},6.04\times10^{5})","(40, 6.04e5)",N,llm_only,18059
+Introduction_to_Materials_Science_for_Engineers_Shackelford_14.47,Materials: Metals,openai/o4-mini,text_only,1500,1.50,N,llm_only,9052
+Introduction_to_Materials_Science_for_Engineers_Shackelford_14.57,Materials: Ceramics,openai/o4-mini,text_only,2400,2.4,N,llm_only,12079
+Introduction_to_Materials_Science_for_Engineers_Shackelford_15.13,Materials: Metals,openai/o4-mini,text_only,2.83,2.80,N,llm_only,11758
+Introduction_to_Materials_Science_for_Engineers_Shackelford_15.19,Materials: Semiconductors,openai/o4-mini,text_only,"(2.20,2.10)","(2.19, 1.91 to 2.10)",Y,llm_only,9343
+Introduction_to_Materials_Science_for_Engineers_Shackelford_15.21,Materials: Metals,openai/o4-mini,text_only,"(1.78,\;2.10,\;2.15)","(1.78, 2.10, 2.15)",Y,llm_only,23943
+Introduction_to_Materials_Science_for_Engineers_Shackelford_15.25,Materials: Metals,openai/o4-mini,text_only,1.56\times10^{16},1.56E+16,N,llm_only,11004
+Introduction_to_Materials_Science_for_Engineers_Shackelford_15.27,Materials: Metals,openai/o4-mini,text_only,2.08\times10^{16},2.08E+16,N,llm_only,10951
+Introduction_to_Materials_Science_for_Engineers_Shackelford_15.29,Materials: Metals,openai/o4-mini,text_only,0.46,0.467,N,llm_only,8751
+Introduction_to_Materials_Science_for_Engineers_Shackelford_15.33,Materials: Metals,openai/o4-mini,text_only,2.54,2.54E-03,N,llm_only,16854
+Introduction_to_Materials_Science_for_Engineers_Shackelford_15.37,Materials: Metals,openai/o4-mini,text_only,21.4,21.8,N,llm_only,15179
+Introduction_to_Materials_Science_for_Engineers_Shackelford_15.39,Materials: Metals,openai/o4-mini,text_only,"(7.50\times10^{-6},3.75\times10^{-5})","(7.50, 37.5)",N,llm_only,24512
+Electronic_Magnetic_and_Optical_Materials_Fulay_Example 1.4,Properties: Thermal,openai/o4-mini,text_only,2.868,2.868,Y,llm_only,14595
+Electronic_Magnetic_and_Optical_Materials_Fulay_Example 1.5,Properties: Thermal,openai/o4-mini,text_only,8,8,Y,llm_only,10921
+Electronic_Magnetic_and_Optical_Materials_Fulay_Example 1.7,Materials: Semiconductors,openai/o4-mini,text_only,4.79,4.79,N,llm_only,15270
+Electronic_Magnetic_and_Optical_Materials_Fulay_Example 2.1,Properties: Electrical,openai/o4-mini,text_only,1.59,1.589,N,llm_only,9735
+Electronic_Magnetic_and_Optical_Materials_Fulay_Example 2.2,Materials: Metals,openai/o4-mini,text_only,"(0.0276,1.0)","(0.02758, 1.0)",Y,llm_only,10917
+Electronic_Magnetic_and_Optical_Materials_Fulay_Example 2.3,Properties: Electrical,openai/o4-mini,text_only,20.94,20.9478,Y,llm_only,13371
+Electronic_Magnetic_and_Optical_Materials_Fulay_Example 2.6,Materials: Metals,openai/o4-mini,text_only,"(1.8\times10^{23},\;2\times10^{12})","(1.807e23, 2.0e23)",N,llm_only,34521
+Electronic_Magnetic_and_Optical_Materials_Fulay_Example 2.8,Materials: Metals,openai/o4-mini,text_only,1.37,1.38,N,llm_only,17479
+Electronic_Magnetic_and_Optical_Materials_Fulay_Example 2.9,Materials: Semiconductors,openai/o4-mini,text_only,8.93\times10^{-3},8.9E-03,N,llm_only,10587
+Electronic_Magnetic_and_Optical_Materials_Fulay_Example 2.10,Materials: Metals,openai/o4-mini,text_only,"(254.5,259.7)","(254.45, 259.7)",Y,llm_only,8981
+Electronic_Magnetic_and_Optical_Materials_Fulay_Example 2.11,Properties: Electrical,openai/o4-mini,text_only,"(0.002445,\;2.445,\;58.68,\;2570.18)","(2.44366 \times 10^{-3}, 2.443, 58.6, 2566)",Y,llm_only,16205
+Electronic_Magnetic_and_Optical_Materials_Fulay_Example 2.12,Materials: Metals,openai/o4-mini,text_only,42.9,40.69,N,llm_only,11270
+Electronic_Magnetic_and_Optical_Materials_Fulay_Example 2.14,Materials: Metals,openai/o4-mini,text_only,1s^22s^22p^63s^23p^64s^23d^6,1\mathrm{s}^2 2\mathrm{s}^2 2\mathrm{p}^6 3\mathrm{s}^2 3\mathrm{p}^6 4\mathrm{s}^2 3\mathrm{d}^6,Y,llm_only,11297
+Electronic_Magnetic_and_Optical_Materials_Fulay_Example 3.1,Materials: Semiconductors,openai/o4-mini,text_only,43.1,43.1,Y,llm_only,17020
+Electronic_Magnetic_and_Optical_Materials_Fulay_Example 3.2,Materials: Semiconductors,openai/o4-mini,text_only,\lambda = \frac{1.24}{E_g},$\frac{1.24}{E_{\mathrm{g}}}$,Y,llm_only,13296
+Electronic_Magnetic_and_Optical_Materials_Fulay_Example 3.3,Materials: Semiconductors,openai/o4-mini,text_only,358,357,N,llm_only,7589
+Electronic_Magnetic_and_Optical_Materials_Fulay_Example 3.4,Materials: Metals,openai/o4-mini,text_only,2.19\times10^{-18},13.6,N,llm_only,16343
+Electronic_Magnetic_and_Optical_Materials_Fulay_Example 3.5,Materials: Semiconductors,openai/o4-mini,text_only,5.23\times10^{-3},5.22,Y,llm_only,10396
+Electronic_Magnetic_and_Optical_Materials_Fulay_Example 3.6,Properties: Thermal,openai/o4-mini,text_only,2.59\times10^{-2},0.026,N,llm_only,8225
+Electronic_Magnetic_and_Optical_Materials_Fulay_Example 3.7,Materials: Semiconductors,openai/o4-mini,text_only,0.0254,0.025,N,llm_only,9758
+Electronic_Magnetic_and_Optical_Materials_Fulay_Example 3.9,Materials: Semiconductors,openai/o4-mini,text_only,78.1,781,N,llm_only,11189
+Electronic_Magnetic_and_Optical_Materials_Fulay_Example 3.11,Materials: Semiconductors,openai/o4-mini,text_only,"1.1245,\;1.4224","(1.124, 1.422)",Y,llm_only,12307
+Electronic_Magnetic_and_Optical_Materials_Fulay_Example 3.12,Materials: Semiconductors,openai/o4-mini,text_only,366,365,N,llm_only,9315
+Electronic_Magnetic_and_Optical_Materials_Fulay_Example 4.1,Materials: Metals,openai/o4-mini,text_only,"(7.0,\;1.76)","(7, 1.76)",Y,llm_only,14222
+Electronic_Magnetic_and_Optical_Materials_Fulay_Example 4.2,Materials: Semiconductors,openai/o4-mini,text_only,-0.0127,-12.8,N,llm_only,15715
+Electronic_Magnetic_and_Optical_Materials_Fulay_Example 4.3,Materials: Semiconductors,openai/o4-mini,text_only,"(1\times10^{16},1\times10^{4},0.36)","(1 \times 10^{16}, 2.25 \times 10^{4}, 0.349)",Y,llm_only,14634
+Electronic_Magnetic_and_Optical_Materials_Fulay_Example 4.4,Materials: Semiconductors,openai/o4-mini,text_only,"(1\times10^{17},1\times10^{3},-0.42)","(1 \times 10^{17}, 2.25 \times 10^{3}, -0.407)",N,llm_only,12658
+Electronic_Magnetic_and_Optical_Materials_Fulay_Example 4.5,Materials: Semiconductors,openai/o4-mini,text_only,-0.033,-0.037,N,llm_only,25751
+Electronic_Magnetic_and_Optical_Materials_Fulay_Example 5.1,Materials: Semiconductors,openai/o4-mini,text_only,0.75,0.756,Y,llm_only,13956
+Electronic_Magnetic_and_Optical_Materials_Fulay_Example 5.2,Materials: Semiconductors,openai/o4-mini,text_only,0.75,0.757,N,llm_only,15741
+Electronic_Magnetic_and_Optical_Materials_Fulay_Example 5.3,Materials: Semiconductors,openai/o4-mini,text_only,3.27\times10^{-5},327.8,N,llm_only,16293
+Electronic_Magnetic_and_Optical_Materials_Fulay_Example 5.4,Materials: Semiconductors,openai/o4-mini,text_only,"(0.79, 4.9\times10^4)","(0.795, 4.91 \times 10^4)",Y,llm_only,18787
+Electronic_Magnetic_and_Optical_Materials_Fulay_Example 5.5,Materials: Semiconductors,openai/o4-mini,text_only,"(0.3,\;2.5\times10^{-5},\;1.2\times10^{-3})","(0.3, 2.42 \times 10^{-5}, 1.15 \times 10^{-3})",N,llm_only,15175
+Electronic_Magnetic_and_Optical_Materials_Fulay_Example 5.6,Materials: Semiconductors,openai/o4-mini,text_only,"(3.8\times10^{-3},3.762\times10^{-3})","(3.8, 3.762)",Y,llm_only,9829
+Electronic_Magnetic_and_Optical_Materials_Fulay_Example 5.7,Materials: Semiconductors,openai/o4-mini,text_only,104,103.5,N,llm_only,16576
+Electronic_Magnetic_and_Optical_Materials_Fulay_Example 5.8,Materials: Semiconductors,openai/o4-mini,text_only,2\times10^{-2},2.82E-04,N,llm_only,12144
+Electronic_Magnetic_and_Optical_Materials_Fulay_Example 6.1,Materials: Semiconductors,openai/o4-mini,text_only,"(1.03\times10^{-6},5.13\times10^{-7})","(10.25, 5.12)",N,llm_only,11022
+Electronic_Magnetic_and_Optical_Materials_Fulay_Example 6.2,Materials: Semiconductors,openai/o4-mini,text_only,375\text{–}388,387.5,N,llm_only,15193
+Electronic_Magnetic_and_Optical_Materials_Fulay_Example 6.3,Materials: Semiconductors,openai/o4-mini,text_only,\frac{\alpha}{1-\alpha},$\beta=\frac{\alpha}{1-\alpha}$,N,llm_only,5359
+Electronic_Magnetic_and_Optical_Materials_Fulay_Example 7.2,Materials: Metals,openai/o4-mini,text_only,"(1.97\times10^{-3},\;7.08,\;3600)","(1.96 \times 10^{-3},7.080, 3600)",N,llm_only,23230
+Electronic_Magnetic_and_Optical_Materials_Fulay_Example 7.3,Materials: Semiconductors,openai/o4-mini,text_only,"(17.7,\;22.1)","(17.7, 22.12)",N,llm_only,14979
+Electronic_Magnetic_and_Optical_Materials_Fulay_Example 7.4,Properties: Electrical,openai/o4-mini,text_only,"(1.69\times10^{-40},\;1.52,\;1.52\times10^{-24},\;1.06\times10^{-15},\;1.09\times10^{5})","(1.69 \times 10^{-40}, 1.52, 1.52 \times 10^{-24}, 1.32 \times 10^{-16}, 870284)",Y,llm_only,18242
+Electronic_Magnetic_and_Optical_Materials_Fulay_Example 7.5,Materials: Semiconductors,openai/o4-mini,text_only,"(1.25\times10^{-31},\;1.73\times10^{-30})","(1.387 \times 10^{-41}, 1.92 \times 10^{-40})",N,llm_only,20700
+Electronic_Magnetic_and_Optical_Materials_Fulay_Example 7.7,Materials: Metals,openai/o4-mini,text_only,7.80,7.923,N,llm_only,21893
+Electronic_Magnetic_and_Optical_Materials_Fulay_Example 7.8,Materials: Glasses,openai/o4-mini,text_only,"2.25,\;0.70",0.704,Y,llm_only,8395
+Electronic_Magnetic_and_Optical_Materials_Fulay_Example 7.9,Materials: Metals,openai/o4-mini,text_only,7.85\times10^{-12},7.85,N,llm_only,9456
+Electronic_Magnetic_and_Optical_Materials_Fulay_Example 7.10,Materials: Semiconductors,openai/o4-mini,text_only,79.6,79.5,N,llm_only,11874
+Electronic_Magnetic_and_Optical_Materials_Fulay_Example 7.11,Materials: Metals,openai/o4-mini,text_only,"\bigl(\infty,\;13.26,\;0.796,\;0,\;0.754,\;12.57\bigr)","(\infty, 13.26, 0.796, 0, 0.754, 12.56)",N,llm_only,11856
+Electronic_Magnetic_and_Optical_Materials_Fulay_Example 8.1,Materials: Metals,openai/o4-mini,text_only,6.85\times10^{-12},7.23E-12,N,llm_only,16964
+Electronic_Magnetic_and_Optical_Materials_Fulay_Example 8.3,Materials: Metals,openai/o4-mini,text_only,"(84,\;4.2,\;1.8)","(84, 4.2, 1.8)",N,llm_only,18729
+Electronic_Magnetic_and_Optical_Materials_Fulay_Example 8.4,Materials: Metals,openai/o4-mini,text_only,1.9\times10^{15},1.22E+16,N,llm_only,15082
+Electronic_Magnetic_and_Optical_Materials_Fulay_Example 8.5,Properties: Optical,openai/o4-mini,text_only,80.6,80.5,N,llm_only,9175
+Electronic_Magnetic_and_Optical_Materials_Fulay_Example 8.6,Materials: Glasses,openai/o4-mini,text_only,"(93.0,\;94.1)","(96.4, 97.0)",N,llm_only,27557
+Electronic_Magnetic_and_Optical_Materials_Fulay_Example 8.7,Materials: Semiconductors,openai/o4-mini,text_only,"(2.45,\;3.07\times10^{5})","(2.45, 3.1e7)",N,llm_only,27226
+Electronic_Magnetic_and_Optical_Materials_Fulay_Example 9.1,Properties: Optical,openai/o4-mini,text_only,"(18,11.5)","(17, 11.458)",N,llm_only,16263
+Electronic_Magnetic_and_Optical_Materials_Fulay_Example 9.4,Materials: Semiconductors,openai/o4-mini,text_only,2.72\times10^{-3},2.72,N,llm_only,12777
+Electronic_Magnetic_and_Optical_Materials_Fulay_Example 10.3,Materials: Ceramics,openai/o4-mini,text_only,"(0.0251,\;500,\;7.225\times10^{-5},\;0.145)","(25.1 \times 10^{-3}, 5000, 7.225 \times 10^{-5}, 0.145)",N,llm_only,15335
+Electronic_Magnetic_and_Optical_Materials_Fulay_Example 10.5,Materials: Metals,openai/o4-mini,text_only,"(0.77,\;0.484)","(0.77,  112.2)",N,llm_only,12007
+Electronic_Magnetic_and_Optical_Materials_Fulay_Example 10.6,Materials: Polymers,openai/o4-mini,text_only,4.0\times10^3,4058,N,llm_only,14228
+Electronic_Magnetic_and_Optical_Materials_Fulay_Example 11.2,Materials: Metals,openai/o4-mini,text_only,4,4,Y,llm_only,13477
+Electronic_Magnetic_and_Optical_Materials_Fulay_Example 11.3,Materials: Metals,openai/o4-mini,text_only,"(8.38\times10^{-4},0.754)","(8.38 \times 10^{-4}, 0.838)",N,llm_only,16741
+Electronic_Magnetic_and_Optical_Materials_Fulay_Example 11.5,Materials: Metals,openai/o4-mini,text_only,0.64,0.64,N,llm_only,17576
+Electronic_Magnetic_and_Optical_Materials_Fulay_Example 11.6,Materials: Elastomers,openai/o4-mini,text_only,2.85\times10^{-8},28.5,N,llm_only,11351
+Electronic_Magnetic_and_Optical_Materials_Fulay_Example 11.7,Materials: Metals,openai/o4-mini,text_only,"\left(3.77\times10^{-4},\;3.77,\;2.10\times10^{4},\;0.88\right)","(3.78 \times 10^{-4}, 3.78, 21000, 0.88)",Y,llm_only,12919
+Fundamentals_of_Materials_Instructors_Example 2.2,Materials: Semiconductors,openai/o4-mini,text_only,28.0854,28.0854,N,llm_only,15836
+Fundamentals_of_Materials_Instructors_Example 2.3,Materials: Metals,openai/o4-mini,text_only,65.40,65.400,Y,llm_only,22655
+Fundamentals_of_Materials_Instructors_Example 2.4,Materials: Metals,openai/o4-mini,text_only,"(0.043,0.957)","(0.043, 0.957)",Y,llm_only,12751
+Fundamentals_of_Materials_Instructors_Example 2.5,Structures: Composites,openai/o4-mini,text_only,"\bigl(1.66054\times10^{-24},\;2.7316\times10^{26}\bigr)","(1.66e-24, 2.73e26)",Y,llm_only,19416
+Fundamentals_of_Materials_Instructors_Example 2.15,Fundamental: Diffusion & Kinetics,openai/o4-mini,text_only,5.91\times10^{-10},5.91E-10,N,llm_only,13307
+Fundamentals_of_Materials_Instructors_Example 2.16,Fundamental: Phase Diagram,openai/o4-mini,text_only,"(-1.10\times10^{-8},\;1.10\times10^{-8})","(1.10e-8, -1.10e-8)",N,llm_only,12260
+Fundamentals_of_Materials_Instructors_Example 2.17,Materials: Metals,openai/o4-mini,text_only,0.155,0.155,Y,llm_only,20024
+Fundamentals_of_Materials_Instructors_Example 2.18,Materials: Metals,openai/o4-mini,text_only,-\frac{n-1}{n}A\Bigl(\frac{A}{nB}\Bigr)^{\!1/(n-1)},"$$
+E{0}=-\frac{A}{\left(\frac{A}{n B}\right)^{1 /(1-n)}}+\frac{B}{\left(\frac{A}{n B}\right)^{n /(1-n)}}
+$$",N,llm_only,15021
+Fundamentals_of_Materials_Instructors_Example 2.21,Materials: Metals,openai/o4-mini,text_only,"\bigl(De^{-r_{0}/\rho}\bigl(1-\tfrac{r_{0}}{\rho}\bigr),\;\tfrac{C(\rho - r_{0})}{r_{0}^{2}}\bigr)","($$E{0}=D\left(1-\frac{r{0}}{\rho}\right) \exp \left(-\frac{r{0}}{\rho}\right)$$, $$E{0}=\frac{C}{r{0}}\left(\frac{\rho}{r{0}}-1\right)$$)",Y,llm_only,12294
+Fundamentals_of_Materials_Instructors_Example 2.26,Materials: Metals,openai/o4-mini,text_only,0,0,N,llm_only,7716
+Fundamentals_of_Materials_Instructors_Example 3.2,Materials: Metals,openai/o4-mini,text_only,1.21\times10^{-28},1.213E-28,Y,llm_only,14378
+Fundamentals_of_Materials_Instructors_Example 3.3,Fundamental: Crystal Structure,openai/o4-mini,text_only,a=\frac{4R}{\sqrt{3}},"$$
+a=\frac{4 R}{\sqrt{3}}
+$$",Y,llm_only,11181
+Fundamentals_of_Materials_Instructors_Example 3.4,Materials: Semiconductors,openai/o4-mini,text_only,1.633,1.633,Y,llm_only,14926
+Fundamentals_of_Materials_Instructors_Example 3.6,Fundamental: Crystal Structure,openai/o4-mini,text_only,0.7405,0.74,N,llm_only,16749
+Fundamentals_of_Materials_Instructors_Example 3.7,Materials: Metals,openai/o4-mini,text_only,10.20,10.22,N,llm_only,29579
+Fundamentals_of_Materials_Instructors_Example 3.8,Fundamental: Crystal Structure,openai/o4-mini,text_only,2.59,2.59,Y,llm_only,17104
+Fundamentals_of_Materials_Instructors_Example 3.9,Materials: Metals,openai/o4-mini,text_only,1.38\times10^{-8},0.138,Y,llm_only,16824
+Fundamentals_of_Materials_Instructors_Example 3.10,Materials: Metals,openai/o4-mini,text_only,1.43\times10^{-10},0.143,N,llm_only,16888
+Fundamentals_of_Materials_Instructors_Example 3.12,Materials: Metals,openai/o4-mini,text_only,"(1.058\times10^{-28},4.667\times10^{-10})","(1.058e-28, 0.468)",N,llm_only,39732
+Fundamentals_of_Materials_Instructors_Example 3.13,Materials: Metals,openai/o4-mini,text_only,"(1.392\times10^{-22},7.545\times10^{-8})","(1.39e-22, 0.521)",N,llm_only,55670
+Fundamentals_of_Materials_Instructors_Example 3.17,Fundamental: Crystal Structure,openai/o4-mini,text_only,0.54,0.536,N,llm_only,20230
+Fundamentals_of_Materials_Instructors_Example 3.18,Fundamental: Crystal Structure,openai/o4-mini,text_only,"(4,7.31)","(4.0, 7.31)",Y,llm_only,19687
+Fundamentals_of_Materials_Instructors_Example 3.19,Materials: Metals,openai/o4-mini,text_only,"(0.04867,\;1.845)","(4.87e-23, 1.84)",N,llm_only,11698
+Fundamentals_of_Materials_Instructors_Example 3.20,Materials: Metals,openai/o4-mini,text_only,1.607\times 10^{-8},0.160,N,llm_only,54890
+Fundamentals_of_Materials_Instructors_Example 3.21,Materials: Metals,openai/o4-mini,text_only,6.64\times10^{-2},6.64E-02,Y,llm_only,12379
+Fundamentals_of_Materials_Instructors_Example 3.23,Materials: Metals,openai/o4-mini,text_only,0.225,0.225,N,llm_only,6876
+Fundamentals_of_Materials_Instructors_Example 3.25,Materials: Metals,openai/o4-mini,text_only,\sqrt{3}-1,0.732,Y,llm_only,18566
+Fundamentals_of_Materials_Instructors_Example 3.28,Materials: Metals,openai/o4-mini,text_only,0.794,0.793,N,llm_only,29835
+Fundamentals_of_Materials_Instructors_Example 3.29,Materials: Metals,openai/o4-mini,text_only,0.842,0.842,Y,llm_only,21079
+Fundamentals_of_Materials_Instructors_Example 3.31,Materials: Metals,openai/o4-mini,text_only,6.8,6.80,N,llm_only,17792
+Fundamentals_of_Materials_Instructors_Example 3.32,Materials: Metals,openai/o4-mini,text_only,4.38\times10^{-8},0.437,N,llm_only,17516
+Fundamentals_of_Materials_Instructors_Example 3.33,Materials: Glasses,openai/o4-mini,text_only,"(8,16)","(8, 16)",N,llm_only,14795
+Fundamentals_of_Materials_Instructors_Example 3.34,Materials: Metals,openai/o4-mini,text_only,4.19,4.21,Y,llm_only,19372
+Fundamentals_of_Materials_Instructors_Example 3.37,Materials: Metals,openai/o4-mini,text_only,0.685,0.686,Y,llm_only,18895
+Fundamentals_of_Materials_Instructors_Example 3.39,Materials: Semiconductors,openai/o4-mini,text_only,109.47,109.48,N,llm_only,12701
+Fundamentals_of_Materials_Instructors_Example 3.40,Materials: Semiconductors,openai/o4-mini,text_only,3.55,3.54,N,llm_only,13706
+Fundamentals_of_Materials_Instructors_Example 3.41,Materials: Metals,openai/o4-mini,text_only,4.10,4.11,Y,llm_only,15541
+Fundamentals_of_Materials_Instructors_Example 3.43,Materials: Metals,openai/o4-mini,text_only,-1.12\,1.19,N,llm_only,32380
+Fundamentals_of_Materials_Instructors_Example 3.59,Materials: Metals,openai/o4-mini,text_only,"([110],[110])","([1 1 0], [1 1 0])",N,llm_only,15325
+Fundamentals_of_Materials_Instructors_Example 3.60,Materials: Metals,openai/o4-mini,text_only,"((4,3,6),(4,3,6))","([4 3 6], [4 3 6])",Y,llm_only,17760
+Fundamentals_of_Materials_Instructors_Example 3.62,Fundamental: Crystal Structure,openai/o4-mini,text_only,"([11-20],[000-1])","([1 1 -2 0], [0 0 0 -1])",Y,llm_only,13549
+Fundamentals_of_Materials_Instructors_Example 3.77,Materials: Metals,openai/o4-mini,text_only,"(1\;1\;-2\;1),\;(0\;-1\;1\;2)","((1 1 -2 1), (0 -1 1 2))",Y,llm_only,14174
+Fundamentals_of_Materials_Instructors_Example 3.80,Materials: Metals,openai/o4-mini,text_only,"\left(\frac{1}{2R\sqrt2},\frac{1}{2R\sqrt6},2.76,1.59\right)","($\frac{1}{2 R \sqrt{2}}$, $\frac{1}{2 R \sqrt{6}}$, 2.76e9, 1.59e9)",Y,llm_only,22022
+Fundamentals_of_Materials_Instructors_Example 3.81,Materials: Metals,openai/o4-mini,text_only,"\left(\frac{\sqrt6}{4R},\;\frac{3}{4R},\;4.94,\;6.05\right)","($\frac{\sqrt{3}}{4R\sqrt{2}}$, $\frac{1}{2 R}$, 2.47e9, 4.03e9)",N,llm_only,23108
+Fundamentals_of_Materials_Instructors_Example 3.82,Materials: Metals,openai/o4-mini,text_only,"\bigl(\tfrac{1}{4R^2},\;\tfrac{\sqrt3}{6R^2},\;12.23,\;14.11\bigr)","($\frac{1}{4R^2}$, $\frac{1}{2 R^{2} \sqrt{3}}$, 12.23, 14.12)",N,llm_only,29258
+Fundamentals_of_Materials_Instructors_Example 3.83,Materials: Metals,openai/o4-mini,text_only,"\left(\frac{3}{16R^2},\;\frac{3\sqrt{2}}{16R^2},\;10.14,\;14.34\right)","($\frac{3}{16 R^{2}}$, $\frac{3}{8 R^{2} \sqrt{2}}$,1.014e19, 1.434e19)",Y,llm_only,56920
+Fundamentals_of_Materials_Instructors_Example 3.84,Materials: Metals,openai/o4-mini,text_only,"\bigl(\frac{1}{3\sqrt{3}R^2},\;9.16\bigr)","($\frac{1}{2 R^{2} \sqrt{3}}$, 1.373e19)",N,llm_only,16848
+Fundamentals_of_Materials_Instructors_Example 3.86,Materials: Semiconductors,openai/o4-mini,text_only,\tfrac{2}{3},2/3,Y,llm_only,6975
+Fundamentals_of_Materials_Instructors_Example 3.87,Materials: Ceramics,openai/o4-mini,text_only,\tfrac{1}{3},1/2,N,llm_only,20045
+Fundamentals_of_Materials_Instructors_Example 3.88,Materials: Metals,openai/o4-mini,text_only,"\bigl(0,\tfrac{2}{3}\bigr)","(0, 2/3)",N,llm_only,14757
+Fundamentals_of_Materials_Instructors_Example 3.90,Materials: Metals,openai/o4-mini,text_only,"\bigl(1/d_{hkl}^{2} = (h^{2}+k^{2}+l^{2})/a^{2},\;1/d_{hkl}^{2} = (h^{2}+k^{2})/a^{2}+l^{2}/c^{2}\bigr)","($\frac{1}{d{h k l}^{2}}=\frac{h^{2}+k^{2}+l^{2}}{a^{2}}$, $\frac{1}{d{h k l}^{2}}=\frac{h^{2}+k^{2}}{a^{2}}+\frac{l^{2}}{c^{2}}$)",Y,llm_only,8487
+Fundamentals_of_Materials_Instructors_Example 3.91,Materials: Metals,openai/o4-mini,text_only,0.2865,0.2860,Y,llm_only,13355
+Fundamentals_of_Materials_Instructors_Example 3.92,Materials: Metals,openai/o4-mini,text_only,"(1.655,\;1.170)","(0.1655, 0.1170)",Y,llm_only,14900
+Fundamentals_of_Materials_Instructors_Example 3.93,Materials: Metals,openai/o4-mini,text_only,22.95,45.88,N,llm_only,14192
+Fundamentals_of_Materials_Instructors_Example 3.94,Materials: Metals,openai/o4-mini,text_only,56.96,56.84,Y,llm_only,9956
+Fundamentals_of_Materials_Instructors_Example 3.95,Materials: Metals,openai/o4-mini,text_only,"(0.1147,0.1345)","(0.1147, 0.1345)",Y,llm_only,18483
+Fundamentals_of_Materials_Instructors_Example 3.96,Materials: Metals,openai/o4-mini,text_only,"(0.1346, 0.1427)","(0.1348, 0.1429)",N,llm_only,14017
+Fundamentals_of_Materials_Instructors_Example 3.97,Materials: Metals,openai/o4-mini,text_only,(111),(1 1 1),Y,llm_only,17701
+Fundamentals_of_Materials_Instructors_Example 3.98,Materials: Metals,openai/o4-mini,text_only,310,(3 1 0),N,llm_only,11067
+Fundamentals_of_Materials_Instructors_Example 3.104,Materials: Metals,openai/o4-mini,text_only,1.22\times10^{-10},0.122,N,llm_only,30963
+Fundamentals_of_Materials_Instructors_Example 3.106,Materials: Metals,openai/o4-mini,text_only,1.76,0.219,N,llm_only,14301
+Fundamentals_of_Materials_Instructors_Example 4.5,Materials: Polymers,openai/o4-mini,text_only,"(49800,55200,498)","(49800, 55200, 498)",Y,llm_only,18608
+Fundamentals_of_Materials_Instructors_Example 4.6,Materials: Polymers,openai/o4-mini,text_only,"(47720,53720)","(47720, 53720)",Y,llm_only,12822
+Fundamentals_of_Materials_Instructors_Example 4.8,Materials: Polymers,openai/o4-mini,text_only,29.1,29.0,Y,llm_only,16359
+Fundamentals_of_Materials_Instructors_Example 4.10,Materials: Polymers,openai/o4-mini,text_only,"(1.12\times10^{6},1.38\times10^{6})","(795000, 474600)",N,llm_only,57390
+Fundamentals_of_Materials_Instructors_Example 4.16,Materials: Polymers,openai/o4-mini,text_only,"9346\text{ AN},9346\text{ BD}",9333,N,llm_only,15485
+Fundamentals_of_Materials_Instructors_Example 4.20,Materials: Polymers,openai/o4-mini,text_only,"(0.4466,0.5534)","(0.45, 0.55)",N,llm_only,10199
+Fundamentals_of_Materials_Instructors_Example 4.25,Materials: Polymers,openai/o4-mini,text_only,"(1.446,\;1.296,\;57.3)","(1.450, 1.300, 57.4)",Y,llm_only,16495
+Fundamentals_of_Materials_Instructors_Example 4.26,Materials: Polymers,openai/o4-mini,text_only,"(0.837,\;0.944,\;0.917)","(0.841, 0.946, 0.917)",N,llm_only,16539
+Fundamentals_of_Materials_Instructors_Example 5.1,Materials: Metals,openai/o4-mini,text_only,1.16\times10^{23},1.156E+23,Y,llm_only,9461
+Fundamentals_of_Materials_Instructors_Example 5.2,Materials: Metals,openai/o4-mini,text_only,4.41\times10^{-4},4.41E-04,N,llm_only,12451
+Fundamentals_of_Materials_Instructors_Example 5.3,Materials: Metals,openai/o4-mini,text_only,"\bigl(4.6\times10^{-4},\;6.0\times10^{-16},\;7.6\times10^{11}\bigr)","(4.56e-4, 6.08e-16, 7.5e11)",Y,llm_only,19130
+Fundamentals_of_Materials_Instructors_Example 5.4,Materials: Metals,openai/o4-mini,text_only,3.5\times10^{24},3.52E+24,Y,llm_only,16409
+Fundamentals_of_Materials_Instructors_Example 5.5,Materials: Metals,openai/o4-mini,text_only,1.40,1.40,N,llm_only,14113
+Fundamentals_of_Materials_Instructors_Example 5.7,Materials: Metals,openai/o4-mini,text_only,1.6\times10^{-5},7.87E-06,N,llm_only,17742
+Fundamentals_of_Materials_Instructors_Example 5.8,Materials: Metals,openai/o4-mini,text_only,8.2\times10^{23},8.24E+23,Y,llm_only,22850
+Fundamentals_of_Materials_Instructors_Example 5.21,Materials: Metals,openai/o4-mini,text_only,"(0.0361,0.97)","(0.036, 0.97)",N,llm_only,10649
+Fundamentals_of_Materials_Instructors_Example 5.23,Materials: Metals,openai/o4-mini,text_only,"(87.9,12.1)","(87.9, 12.1)",Y,llm_only,15048
+Fundamentals_of_Materials_Instructors_Example 5.24,Materials: Metals,openai/o4-mini,text_only,"(3.23,96.77)","(3.23, 96.77)",N,llm_only,9953
+Fundamentals_of_Materials_Instructors_Example 5.25,Materials: Metals,openai/o4-mini,text_only,"(1.686,\;98.314)","(1.68, 98.32)",N,llm_only,9139
+Fundamentals_of_Materials_Instructors_Example 5.26,Materials: Metals,openai/o4-mini,text_only,"(98.87,\;0.19,\;0.94)","(98.87, 0.19, 0.94)",Y,llm_only,15541
+Fundamentals_of_Materials_Instructors_Example 5.27,Materials: Metals,openai/o4-mini,text_only,"(41.95,58.05)","(41.9, 58.1)",N,llm_only,13117
+Fundamentals_of_Materials_Instructors_Example 5.28,Materials: Metals,openai/o4-mini,text_only,"(44.79,46.15,9.06)","(44.8, 46.2, 9.0)",Y,llm_only,23668
+Fundamentals_of_Materials_Instructors_Example 5.30,Materials: Metals,openai/o4-mini,text_only,3.30\times10^{28},3.3E+28,N,llm_only,9826
+Fundamentals_of_Materials_Instructors_Example 5.31,Materials: Metals,openai/o4-mini,text_only,8.33\times10^{28},8.33E+28,Y,llm_only,12644
+Fundamentals_of_Materials_Instructors_Example 5.32,Materials: Metals,openai/o4-mini,text_only,19.6,19.6,N,llm_only,11554
+Fundamentals_of_Materials_Instructors_Example 5.33,Materials: Semiconductors,openai/o4-mini,text_only,2.6\times10^{-6},2.57E-06,N,llm_only,16897
+Fundamentals_of_Materials_Instructors_Example 5.34,Materials: Metals,openai/o4-mini,text_only,4.38,4.38,Y,llm_only,11624
+Fundamentals_of_Materials_Instructors_Example 5.38,Materials: Metals,openai/o4-mini,text_only,1.73\times10^{22},1.73E+22,Y,llm_only,11499
+Fundamentals_of_Materials_Instructors_Example 5.39,Materials: Metals,openai/o4-mini,text_only,1.02\times10^{22},1.02E+22,Y,llm_only,10217
+Fundamentals_of_Materials_Instructors_Example 5.41,Materials: Metals,openai/o4-mini,text_only,9.3\times10^{-3},9.31E-03,Y,llm_only,15312
+Fundamentals_of_Materials_Instructors_Example 5.42,Materials: Metals,openai/o4-mini,text_only,5.0\times10^{21},4.99E+21,Y,llm_only,12707
+Fundamentals_of_Materials_Instructors_Example 5.44,Materials: Metals,openai/o4-mini,text_only,15.9,15.9,N,llm_only,17233
+Fundamentals_of_Materials_Instructors_Example 5.45,Materials: Semiconductors,openai/o4-mini,text_only,11.7,11.7,N,llm_only,22036
+Fundamentals_of_Materials_Instructors_Example 5.46,Materials: Semiconductors,openai/o4-mini,text_only,"(1.44\times10^{-5},1.30\times10^{-5})","(1.43e-5, 1.30e-5)",Y,llm_only,21605
+Fundamentals_of_Materials_Instructors_Example 5.47,Materials: Metals,openai/o4-mini,text_only,0.2884,0.289,Y,llm_only,16919
+Fundamentals_of_Materials_Instructors_Example 5.57,Structures: Micro/Nano-structure,openai/o4-mini,text_only,"(32,\;3.2\times10^5)","(32, 320000)",Y,llm_only,22328
+Fundamentals_of_Materials_Instructors_Example 5.58,Materials: Metals,openai/o4-mini,text_only,21.8,8.6,N,llm_only,27358
+Fundamentals_of_Materials_Instructors_Example 5.59,Materials: Metals,openai/o4-mini,text_only,-6.81,4.8,N,llm_only,14150
+Fundamentals_of_Materials_Instructors_Example 5.62,Materials: Metals,openai/o4-mini,text_only,2.38,2.38,Y,llm_only,11418
+Fundamentals_of_Materials_Instructors_Example 5.63,Materials: Metals,openai/o4-mini,text_only,2.67,2.83,N,llm_only,15519
+Fundamentals_of_Materials_Instructors_Example 5.64,Materials: Metals,openai/o4-mini,text_only,1.5\times10^{24},1.49E+24,N,llm_only,15392
+Fundamentals_of_Materials_Instructors_Example 5.65,Materials: Metals,openai/o4-mini,text_only,"(2.63, 97.37)","(2.6, 97.4)",N,llm_only,14731
+Fundamentals_of_Materials_Instructors_Example 5.66,Materials: Metals,openai/o4-mini,text_only,"(96.44,3.56)","(96.4, 3.6)",N,llm_only,12933
+Fundamentals_of_Materials_Instructors_Example 6.8,Materials: Metals,openai/o4-mini,text_only,4.08\times10^{-3},4.1E-03,Y,llm_only,13493
+Fundamentals_of_Materials_Instructors_Example 6.9,Materials: Metals,openai/o4-mini,text_only,2.78\times10^{-3},2.78,N,llm_only,15771
+Fundamentals_of_Materials_Instructors_Example 6.10,Materials: Metals,openai/o4-mini,text_only,2.28\times10^{-14},2.3E-11,N,llm_only,17916
+Fundamentals_of_Materials_Instructors_Example 6.11,Materials: Metals,openai/o4-mini,text_only,8.8\times10^{-15},8.72E-15,Y,llm_only,41725
+Fundamentals_of_Materials_Instructors_Example 6.13,Materials: Metals,openai/o4-mini,text_only,1.45\times10^6,31.3,N,llm_only,22290
+Fundamentals_of_Materials_Instructors_Example 6.14,Materials: Metals,openai/o4-mini,text_only,9.33\times10^{-4},0.932,N,llm_only,12460
+Fundamentals_of_Materials_Instructors_Example 6.15,Materials: Metals,openai/o4-mini,text_only,0.1254,0.075,N,llm_only,10749
+Fundamentals_of_Materials_Instructors_Example 6.17,Materials: Metals,openai/o4-mini,text_only,2.23\times 10^{-6},0.697,N,llm_only,22551
+Fundamentals_of_Materials_Instructors_Example 6.19,Materials: Metals,openai/o4-mini,text_only,135,135,N,llm_only,10307
+Fundamentals_of_Materials_Instructors_Example 6.20,Materials: Metals,openai/o4-mini,text_only,"(1.4\times10^{-10},5.9\times10^{-12})","(1.40e-10, 5.86e-12)",Y,llm_only,18454
+Fundamentals_of_Materials_Instructors_Example 6.21,Materials: Metals,openai/o4-mini,text_only,9.7\times10^{-15},9.64E-15,Y,llm_only,12527
+Fundamentals_of_Materials_Instructors_Example 6.22,Materials: Metals,openai/o4-mini,text_only,6.1\times10^{-12},6E-12,Y,llm_only,14206
+Fundamentals_of_Materials_Instructors_Example 6.23,Materials: Metals,openai/o4-mini,text_only,900,901,N,llm_only,9823
+Fundamentals_of_Materials_Instructors_Example 6.24,Materials: Metals,openai/o4-mini,text_only,948,948,Y,llm_only,12428
+Fundamentals_of_Materials_Instructors_Example 6.25,Materials: Metals,openai/o4-mini,text_only,1.43\times10^3,1427,N,llm_only,10898
+Fundamentals_of_Materials_Instructors_Example 6.26,Materials: Metals,openai/o4-mini,text_only,4.8\times 10^{-13},4.8E-13,N,llm_only,17413
+Fundamentals_of_Materials_Instructors_Example 6.27,Materials: Metals,openai/o4-mini,text_only,"(3.53\times10^{-4},3.16\times10^{5},1.16\times10^{-14})","(3.5e-4, 315700, 1.1e-14)",N,llm_only,25925
+Fundamentals_of_Materials_Instructors_Example 6.28,Materials: Metals,openai/o4-mini,text_only,"\bigl(9.8\times10^{-6},1.38\times10^{5},3.8\times10^{-12}\bigr)","(1.05e-5, 138300, 3.8e-12)",Y,llm_only,24290
+Fundamentals_of_Materials_Instructors_Example 6.32,Materials: Metals,openai/o4-mini,text_only,8.83\times10^{2},884,N,llm_only,20794
+Fundamentals_of_Materials_Instructors_Example 6.33,Materials: Metals,openai/o4-mini,text_only,1.21\times10^{-8},1.21E-08,N,llm_only,11523
+Fundamentals_of_Materials_Instructors_Example 6.34,Materials: Metals,openai/o4-mini,text_only,1108,1381,Y,llm_only,12064
+Fundamentals_of_Materials_Instructors_Example 6.35,Properties: Optical,openai/o4-mini,text_only,"(4.9\times10^{-14},1.10)","(4.81e-14, 1.08)",Y,llm_only,22557
+Fundamentals_of_Materials_Instructors_Example 6.38,Materials: Metals,openai/o4-mini,text_only,0.66,0.66,Y,llm_only,18308
+Fundamentals_of_Materials_Instructors_Example 6.39,Materials: Metals,openai/o4-mini,text_only,1.22\times10^{5},120700,N,llm_only,16662
+Fundamentals_of_Materials_Instructors_Example 6.40,Materials: Metals,openai/o4-mini,text_only,4.6,4.61,N,llm_only,11596
+Fundamentals_of_Materials_Instructors_Example 6.41,Materials: Metals,openai/o4-mini,text_only,1009,1283,Y,llm_only,19599
+Fundamentals_of_Materials_Instructors_Example 6.42,Materials: Metals,openai/o4-mini,text_only,5.6\times10^{25},5.44E+25,N,llm_only,23838
+Fundamentals_of_Materials_Instructors_Example 6.43,Materials: Semiconductors,openai/o4-mini,text_only,"(1.2\times10^{18},\;1.47\times10^{-6},\;1.15\times10^{-6})","(3.63e17, 1.23, 0.343)",N,llm_only,35165
+Fundamentals_of_Materials_Instructors_Example 6.44,Materials: Semiconductors,openai/o4-mini,text_only,0,1.53,N,llm_only,76421
+Fundamentals_of_Materials_Instructors_Example 6.45,Materials: Polymers,openai/o4-mini,text_only,2.7\times10^{-7},2.7E-07,Y,llm_only,11995
+Fundamentals_of_Materials_Instructors_Example 6.46,Materials: Polymers,openai/o4-mini,text_only,7.3\times10^{-11},7.3E-14,N,llm_only,13308
+Fundamentals_of_Materials_Instructors_Example 6.47,Materials: Polymers,openai/o4-mini,text_only,2.8\times10^{-7},2.8E-07,Y,llm_only,16338
+Fundamentals_of_Materials_Instructors_Example 6.48,Materials: Metals,openai/o4-mini,text_only,495,568,N,llm_only,45173
+Fundamentals_of_Materials_Instructors_Example 6.49,Materials: Metals,openai/o4-mini,text_only,4.7\times10^{-13},4.7E-13,Y,llm_only,10715
+Fundamentals_of_Materials_Instructors_Example 7.3,Materials: Metals,openai/o4-mini,text_only,1.39\times10^{-3},1.39E-03,Y,llm_only,11542
+Fundamentals_of_Materials_Instructors_Example 7.4,Materials: Metals,openai/o4-mini,text_only,475,475,N,llm_only,8518
+Fundamentals_of_Materials_Instructors_Example 7.5,Materials: Metals,openai/o4-mini,text_only,71200,71.2,N,llm_only,21791
+Fundamentals_of_Materials_Instructors_Example 7.6,Materials: Metals,openai/o4-mini,text_only,13.85,13.8,Y,llm_only,15224
+Fundamentals_of_Materials_Instructors_Example 7.7,Materials: Metals,openai/o4-mini,text_only,"(4.485\times10^4,76.254)","(44850, 76.25)",N,llm_only,10870
+Fundamentals_of_Materials_Instructors_Example 7.8,Materials: Metals,openai/o4-mini,text_only,9.48,9.5,Y,llm_only,14086
+Fundamentals_of_Materials_Instructors_Example 7.9,Materials: Metals,openai/o4-mini,text_only,"(107,207,69,207)","(100.5, 203.7, 69.1, 200.8)",N,llm_only,8203
+Fundamentals_of_Materials_Instructors_Example 7.15,Materials: Metals,openai/o4-mini,text_only,"0.3255,\;-0.00594","(0.325, -5.9e-3)",Y,llm_only,10791
+Fundamentals_of_Materials_Instructors_Example 7.16,Materials: Metals,openai/o4-mini,text_only,7.80\times10^3,7800,N,llm_only,9755
+Fundamentals_of_Materials_Instructors_Example 7.17,Materials: Metals,openai/o4-mini,text_only,0.367,0.367,Y,llm_only,11984
+Fundamentals_of_Materials_Instructors_Example 7.18,Materials: Metals,openai/o4-mini,text_only,105.69,105.69,Y,llm_only,13587
+Fundamentals_of_Materials_Instructors_Example 7.19,Materials: Metals,openai/o4-mini,text_only,1.0\times10^{11},100,N,llm_only,13878
+Fundamentals_of_Materials_Instructors_Example 7.24,Materials: Metals,openai/o4-mini,text_only,"(0.0140,0.00391,0.0102)","(-1.41e-3, -0.40e-2, -1.0e-2)",N,llm_only,12518
+Fundamentals_of_Materials_Instructors_Example 7.25,Materials: Metals,openai/o4-mini,text_only,"(1.63,\;1.14,\;0.553)","(1.64, 1.15, 0.56)",N,llm_only,14152
+Fundamentals_of_Materials_Instructors_Example 7.30,Materials: Metals,openai/o4-mini,text_only,3.89\times10^5,1.4E+06,N,llm_only,27145
+Fundamentals_of_Materials_Instructors_Example 7.31,Materials: Metals,openai/o4-mini,text_only,8.7\times10^4,1.96E+05,N,llm_only,26377
+Fundamentals_of_Materials_Instructors_Example 7.37,Materials: Metals,openai/o4-mini,text_only,"(59.66,46.00)","(60, 46)",N,llm_only,13200
+Fundamentals_of_Materials_Instructors_Example 7.39,Materials: Metals,openai/o4-mini,text_only,"(1.66\times10^6,\;7.44\times10^5,\;5.48\times10^5,\;2.23\times10^6)","(1.66e6, 7.44e5, 5.48e5, 2.22e6)",Y,llm_only,14266
+Fundamentals_of_Materials_Instructors_Example 7.40,Materials: Metals,openai/o4-mini,text_only,9.26\times10^8,926,N,llm_only,14878
+Fundamentals_of_Materials_Instructors_Example 7.41,Materials: Metals,openai/o4-mini,text_only,1.47,1.47,Y,llm_only,10781
+Fundamentals_of_Materials_Instructors_Example 7.45,Materials: Metals,openai/o4-mini,text_only,0.313,0.311,N,llm_only,13540
+Fundamentals_of_Materials_Instructors_Example 7.46,Materials: Metals,openai/o4-mini,text_only,23.8,23.7,N,llm_only,15257
+Fundamentals_of_Materials_Instructors_Example 7.47,Materials: Metals,openai/o4-mini,text_only,66400,460,N,llm_only,9529
+Fundamentals_of_Materials_Instructors_Example 7.48,Materials: Metals,openai/o4-mini,text_only,343,343,Y,llm_only,11556
+Fundamentals_of_Materials_Instructors_Example 7.49,Materials: Metals,openai/o4-mini,text_only,7.32\times10^{8},7.33E+08,N,llm_only,17837
+Fundamentals_of_Materials_Instructors_Example 7.51,Materials: Metals,openai/o4-mini,text_only,"(0.25,\;2690)","(0.245, 2660)",Y,llm_only,37016
+Fundamentals_of_Materials_Instructors_Example 7.54,Materials: Ceramics,openai/o4-mini,text_only,"(101,\;9.43\times10^{-3})","(101, 9.4e-3)",Y,llm_only,18187
+Fundamentals_of_Materials_Instructors_Example 7.55,Materials: Metals,openai/o4-mini,text_only,9.13,9.1,N,llm_only,16480
+Fundamentals_of_Materials_Instructors_Example 7.56,Materials: Metals,openai/o4-mini,text_only,1.72\times10^4,17200,N,llm_only,16597
+Fundamentals_of_Materials_Instructors_Example 7.57,Materials: Metals,openai/o4-mini,text_only,286,286.5,Y,llm_only,16242
+Fundamentals_of_Materials_Instructors_Example 7.58,Materials: Ceramics,openai/o4-mini,text_only,"(264.6,194.5)","(265, 195)",Y,llm_only,15550
+Fundamentals_of_Materials_Instructors_Example 7.59,Materials: Ceramics,openai/o4-mini,text_only,"(343.7,16.4)","(342, 17.1)",N,llm_only,17202
+Fundamentals_of_Materials_Instructors_Example 7.61,Materials: Ceramics,openai/o4-mini,text_only,"(95.3,51.4)","(95.3, 51.5)",N,llm_only,9031
+Fundamentals_of_Materials_Instructors_Example 7.67,Materials: Polymers,openai/o4-mini,text_only,3.67,3.66,N,llm_only,13763
+Fundamentals_of_Materials_Instructors_Example 7.78,Materials: Metals,openai/o4-mini,text_only,"(48.44,1.95)","(48.4, 1.95)",Y,llm_only,26127
+Fundamentals_of_Materials_Instructors_Example 7.79,Materials: Metals,openai/o4-mini,text_only,"(265.95,7.34)","(265.9, 7.34)",Y,llm_only,29429
+Fundamentals_of_Materials_Instructors_Example 7.82,Materials: Metals,openai/o4-mini,text_only,6.28,6.3,Y,llm_only,10097
+Fundamentals_of_Materials_Instructors_Example 8.11,Fundamental: Crystal Structure,openai/o4-mini,text_only,\frac{\sqrt6}{5},0.490,Y,llm_only,36176
+Fundamentals_of_Materials_Instructors_Example 8.12,Materials: Metals,openai/o4-mini,text_only,15.14,15.1,N,llm_only,12584
+Fundamentals_of_Materials_Instructors_Example 8.13,Materials: Metals,openai/o4-mini,text_only,0.915,0.91,Y,llm_only,11570
+Fundamentals_of_Materials_Instructors_Example 8.14,Materials: Metals,openai/o4-mini,text_only,5.68,5.68,Y,llm_only,13065
+Fundamentals_of_Materials_Instructors_Example 8.15,Materials: Metals,openai/o4-mini,text_only,"(1.2247,\;1.2247,\;\infty)","(1.22, 1.22, $\infty$)",Y,llm_only,13760
+Fundamentals_of_Materials_Instructors_Example 8.16,Materials: Metals,openai/o4-mini,text_only,"(1.63,\;0,\;1.63)","(1.63, 0, 1.63)",Y,llm_only,15979
+Fundamentals_of_Materials_Instructors_Example 8.17,Materials: Metals,openai/o4-mini,text_only,8.82,8.82,N,llm_only,12992
+Fundamentals_of_Materials_Instructors_Example 8.18,Materials: Metals,openai/o4-mini,text_only,4.18,4.18,N,llm_only,18079
+Fundamentals_of_Materials_Instructors_Example 8.19,Materials: Metals,openai/o4-mini,text_only,0.96,0.96,Y,llm_only,9137
+Fundamentals_of_Materials_Instructors_Example 8.25,Materials: Metals,openai/o4-mini,text_only,4.33\times10^{-3},4.34E-03,N,llm_only,19934
+Fundamentals_of_Materials_Instructors_Example 8.29,Materials: Metals,openai/o4-mini,text_only,8.8,8.80,Y,llm_only,11006
+Fundamentals_of_Materials_Instructors_Example 8.33,Materials: Metals,openai/o4-mini,text_only,6.28,6.28,Y,llm_only,8274
+Fundamentals_of_Materials_Instructors_Example 8.39,Properties: Thermal,openai/o4-mini,text_only,5.59\times10^{-2},5.59E-02,Y,llm_only,14475
+Fundamentals_of_Materials_Instructors_Example 8.40,Materials: Metals,openai/o4-mini,text_only,1.11\times10^3,1110,N,llm_only,15389
+Fundamentals_of_Materials_Instructors_Example 8.41,Materials: Metals,openai/o4-mini,text_only,"(3.10\times10^{-2},1.09\times10^{-1})","(0.031, 0.109)",Y,llm_only,16225
+Fundamentals_of_Materials_Instructors_Example 8.45,Materials: Metals,openai/o4-mini,text_only,341.4,341,Y,llm_only,17119
+Fundamentals_of_Materials_Instructors_Example 8.51,Materials: Polymers,openai/o4-mini,text_only,100,112.5,N,llm_only,8698
+Fundamentals_of_Materials_Instructors_Example 8.52,Materials: Polymers,openai/o4-mini,text_only,31111,27700,Y,llm_only,8773
+Fundamentals_of_Materials_Instructors_Example 8.61,Materials: Elastomers,openai/o4-mini,text_only,0.352,0.352,Y,llm_only,11268
+Fundamentals_of_Materials_Instructors_Example 9.1,Properties: Mechanical,openai/o4-mini,text_only,2940,2800,N,llm_only,27525
+Fundamentals_of_Materials_Instructors_Example 9.2,Properties: Mechanical,openai/o4-mini,text_only,2.07\times10^{4},20.7,N,llm_only,9682
+Fundamentals_of_Materials_Instructors_Example 9.3,Materials: Metals,openai/o4-mini,text_only,3.36\times10^7,33.6,Y,llm_only,21705
+Fundamentals_of_Materials_Instructors_Example 9.4,Properties: Mechanical,openai/o4-mini,text_only,7.86\times10^{-4},0.79,N,llm_only,16516
+Fundamentals_of_Materials_Instructors_Example 9.5,Materials: Metals,openai/o4-mini,text_only,No,1380,N,llm_only,17029
+Fundamentals_of_Materials_Instructors_Example 9.6,Materials: Metals,openai/o4-mini,text_only,Fracture\ will\ occur,42.4,Y,llm_only,15781
+Fundamentals_of_Materials_Instructors_Example 9.7,Materials: Metals,openai/o4-mini,text_only,134,134,Y,llm_only,11922
+Fundamentals_of_Materials_Instructors_Example 9.8,Materials: Metals,openai/o4-mini,text_only,1.08,1.08,N,llm_only,14590
+Fundamentals_of_Materials_Instructors_Example 9.9,Materials: Metals,openai/o4-mini,text_only,0.03630,18.2,N,llm_only,15850
+Fundamentals_of_Materials_Instructors_Example 9.10,Materials: Metals,openai/o4-mini,text_only,0.00413,4.1,N,llm_only,13994
+Fundamentals_of_Materials_Instructors_Example 9.11,Materials: Metals,openai/o4-mini,text_only,Yes,16.8,Y,llm_only,13875
+Fundamentals_of_Materials_Instructors_Example 9.14,Materials: Glasses,openai/o4-mini,text_only,4.1\times10^{-9},4.1,Y,llm_only,19401
+Fundamentals_of_Materials_Instructors_Example 9.15,Materials: Semiconductors,openai/o4-mini,text_only,8,8,N,llm_only,12889
+Fundamentals_of_Materials_Instructors_Example 9.17,Materials: Metals,openai/o4-mini,text_only,"(-98.9,-107.3)","(-100, -110)",Y,llm_only,12611
+Fundamentals_of_Materials_Instructors_Example 9.20,Materials: Metals,openai/o4-mini,text_only,"(280,-140,-0.5,420)","(280, -140, -0.50, 420)",N,llm_only,8544
+Fundamentals_of_Materials_Instructors_Example 9.27,Materials: Metals,openai/o4-mini,text_only,"74.3,\;81.2,\;104.6,\;146.8","(74, 80, 115, 145)",N,llm_only,33378
+Fundamentals_of_Materials_Instructors_Example 9.28,Materials: Metals,openai/o4-mini,text_only,"(290,5.3\times10^4,459,327)","(290, 50000, 440, 325)",Y,llm_only,19596
+Fundamentals_of_Materials_Instructors_Example 9.36,Materials: Metals,openai/o4-mini,text_only,0.033,3.2E-02,N,llm_only,14737
+Fundamentals_of_Materials_Instructors_Example 9.47,Materials: Metals,openai/o4-mini,text_only,1.9\times10^{-2},1.94E-02,Y,llm_only,19525
+Fundamentals_of_Materials_Instructors_Example 11.3,Properties: Thermal,openai/o4-mini,text_only,1.6\times10^{-10},1.10,N,llm_only,14627
+Fundamentals_of_Materials_Instructors_Example 11.4,Materials: Metals,openai/o4-mini,text_only,"(1.09\times10^{-9},1.27\times10^{-18},4.66\times10^{2})","(1.09, 1.27e-18, 464)",Y,llm_only,22590
+Fundamentals_of_Materials_Instructors_Example 11.6,Materials: Metals,openai/o4-mini,text_only,500,500,Y,llm_only,21921
+Fundamentals_of_Materials_Instructors_Example 11.7,Materials: Metals,openai/o4-mini,text_only,1.0\times10^{-3}te^{-5\times10^{-4}t^2},2.69E-02,N,llm_only,11113
+Fundamentals_of_Materials_Instructors_Example 11.8,Materials: Metals,openai/o4-mini,text_only,1.25\times10^{-2},8.76E-03,N,llm_only,11119
+Fundamentals_of_Materials_Instructors_Example 11.9,Materials: Metals,openai/o4-mini,text_only,8.24\times10^{-3},9.8E-03,N,llm_only,19676
+Fundamentals_of_Materials_Instructors_Example 11.10,Materials: Metals,openai/o4-mini,text_only,608,603,Y,llm_only,14190
+Fundamentals_of_Materials_Instructors_Example 11.11,Materials: Metals,openai/o4-mini,text_only,0.65,0.65,N,llm_only,15404
+Fundamentals_of_Materials_Instructors_Example 12.1,Materials: Semiconductors,openai/o4-mini,text_only,"(12.2,121.6)","(12.2, 121.4)",N,llm_only,12141
+Fundamentals_of_Materials_Instructors_Example 12.2,Materials: Metals,openai/o4-mini,text_only,1.29\times10^{-3},1.29,Y,llm_only,11688
+Fundamentals_of_Materials_Instructors_Example 12.3,Materials: Metals,openai/o4-mini,text_only,8.48\times10^2,848,Y,llm_only,13612
+Fundamentals_of_Materials_Instructors_Example 12.5,Materials: Metals,openai/o4-mini,text_only,"(6.70\times10^{-3},\;5.97,\;3.04\times10^{5},\;8.0\times10^{-3})","(6.70e-3, 6.00, 3.06e5, 8.0e-3)",N,llm_only,15439
+Fundamentals_of_Materials_Instructors_Example 12.10,Materials: Semiconductors,openai/o4-mini,text_only,"(72.5,3.45\times10^{-4})","(72.5, 3.45e-4)",Y,llm_only,12920
+Fundamentals_of_Materials_Instructors_Example 12.11,Materials: Metals,openai/o4-mini,text_only,"\bigl(1.98\times10^{29},\;3.28\bigr)","(1.98e29, 3.28)",N,llm_only,13040
+Fundamentals_of_Materials_Instructors_Example 12.12,Materials: Metals,openai/o4-mini,text_only,"(7.62\times10^{28},5.58\times10^{-3})","(7.61e28, 5.58e-3)",Y,llm_only,15609
+Fundamentals_of_Materials_Instructors_Example 12.16,Materials: Metals,openai/o4-mini,text_only,5.56\times10^6,5.56E+06,N,llm_only,14795
+Fundamentals_of_Materials_Instructors_Example 12.21,Materials: Semiconductors,openai/o4-mini,text_only,1.95\times10^{21},1.95E+21,N,llm_only,9380
+Fundamentals_of_Materials_Instructors_Example 12.25,Materials: Semiconductors,openai/o4-mini,text_only,2.8\times10^{-2},0.028,Y,llm_only,8859
+Fundamentals_of_Materials_Instructors_Example 12.29,Materials: Semiconductors,openai/o4-mini,text_only,1.46\times10^{22},1.46E+22,Y,llm_only,16049
+Fundamentals_of_Materials_Instructors_Example 12.30,Materials: Semiconductors,openai/o4-mini,text_only,1.6\times10^4,1.6E+04,N,llm_only,10316
+Fundamentals_of_Materials_Instructors_Example 12.31,Materials: Semiconductors,openai/o4-mini,text_only,"(0.488,\;0.150)","(0.495, 0.144)",Y,llm_only,25020
+Fundamentals_of_Materials_Instructors_Example 12.33,Materials: Semiconductors,openai/o4-mini,text_only,94.4,94.4,Y,llm_only,13161
+Fundamentals_of_Materials_Instructors_Example 12.35,Materials: Semiconductors,openai/o4-mini,text_only,450,173,N,llm_only,23197
+Fundamentals_of_Materials_Instructors_Example 12.41,Materials: Metals,openai/o4-mini,text_only,"(4.6\times10^{-3},\;4.1\times10^{28})","(0.00455, 4.12e+28)",N,llm_only,14436
+Fundamentals_of_Materials_Instructors_Example 12.42,Materials: Metals,openai/o4-mini,text_only,0.74,0.735,N,llm_only,11914
+Fundamentals_of_Materials_Instructors_Example 12.48,Properties: Electrical,openai/o4-mini,text_only,2.4\times10^{-13},2.34E-13,N,llm_only,11649
+Fundamentals_of_Materials_Instructors_Example 12.49,Materials: Metals,openai/o4-mini,text_only,3.36,3.36,Y,llm_only,9195
+Fundamentals_of_Materials_Instructors_Example 12.51,Materials: Metals,openai/o4-mini,text_only,"(9.99\times10^{-11},2.00\times10^{5})","(1e-10, 2.0e5)",N,llm_only,15799
+Fundamentals_of_Materials_Instructors_Example 12.53,Materials: Polymers,openai/o4-mini,text_only,3.84\times10^{-30},3.84E-30,N,llm_only,14817
+Fundamentals_of_Materials_Instructors_Example 12.55,Materials: Metals,openai/o4-mini,text_only,"(39.7,\;139,\;5.04\times10^{-12},\;1.44\times10^{-12},\;3.08\times10^{-7},\;2.20\times10^{-7})","(39.7, 139, 5.04e-12, 1.44e-12, 3.07e-7, 2.20e-7)",Y,llm_only,25794
+Fundamentals_of_Materials_Instructors_Example 12.58,Materials: Glasses,openai/o4-mini,text_only,0.667,0.67,Y,llm_only,8562
+Fundamentals_of_Materials_Instructors_Example 14.18,Materials: Glasses,openai/o4-mini,text_only,"(46.6,\;14.3)","(46.5, 14.3)",N,llm_only,18440
+Fundamentals_of_Materials_Instructors_Example 14.37,Materials: Polymers,openai/o4-mini,text_only,"(10.3,12.9)","(10.269, 12.914)",Y,llm_only,25803
+Fundamentals_of_Materials_Instructors_Example 15.2,Materials: Metals,openai/o4-mini,text_only,"(31.0,28.7)","(31.0, 28.7)",Y,llm_only,11744
+Fundamentals_of_Materials_Instructors_Example 15.3,Materials: Metals,openai/o4-mini,text_only,19.6,19.65,N,llm_only,11675
+Fundamentals_of_Materials_Instructors_Example 15.6,Materials: Polymers,openai/o4-mini,text_only,43.1,43.1,Y,llm_only,12046
+Fundamentals_of_Materials_Instructors_Example 15.7,Materials: Hybrids,openai/o4-mini,text_only,25,25,Y,llm_only,10489
+Fundamentals_of_Materials_Instructors_Example 15.8,Materials: Polymers,openai/o4-mini,text_only,"1639.25,\;60.27","(1640, 60.3)",N,llm_only,12161
+Fundamentals_of_Materials_Instructors_Example 15.11,Materials: Metals,openai/o4-mini,text_only,\frac{E_fV_f}{E_fV_f \;+\;E_m(1-V_f)},$$ \frac{F{f}}{F{c}}=\frac{V{f} E{f}}{\left(1-V{f}\right) E{m}+V{f} E{f}}$$,Y,llm_only,16939
+Fundamentals_of_Materials_Instructors_Example 15.12,Materials: Hybrids,openai/o4-mini,text_only,"(0.258,\;1070)","(0.258, 1070)",Y,llm_only,16308
+Fundamentals_of_Materials_Instructors_Example 15.13,Materials: Metals,openai/o4-mini,text_only,"(44.65,\;52230,\;1169,\;241.8,\;4.432,\;0.001846)","(44.7, 52232, 1168, 242, 4.4, 1.84e-3)",Y,llm_only,21069
+Fundamentals_of_Materials_Instructors_Example 15.14,Materials: Hybrids,openai/o4-mini,text_only,"(3294,\;52960,\;137820,\;3449)","(3300, 50.8, 138, 3.45)",N,llm_only,15757
+Fundamentals_of_Materials_Instructors_Example 15.15,Materials: Hybrids,openai/o4-mini,text_only,864,905,N,llm_only,18505
+Fundamentals_of_Materials_Instructors_Example 15.16,Materials: Hybrids,openai/o4-mini,text_only,0.397,0.397,Y,llm_only,34807
+Fundamentals_of_Materials_Instructors_Example 15.17,Materials: Polymers,openai/o4-mini,text_only,879,822,N,llm_only,11188
+Fundamentals_of_Materials_Instructors_Example 15.18,Materials: Polymers,openai/o4-mini,text_only,"(0.28,0.32,0.35,12.8)","(0.283, 0.323, 0.353, 15.0)",N,llm_only,25645
+Fundamentals_of_Materials_Instructors_Example 15.26,Materials: Hybrids,openai/o4-mini,text_only,59.7,59.7,Y,llm_only,12449
+Fundamentals_of_Materials_Instructors_Example 15.27,Materials: Hybrids,openai/o4-mini,text_only,E_{ct}=\frac{E_{m}E_{f1}E_{f2}}{(1-V_{f1}-V_{f2})E_{f1}E_{f2}+V_{f1}E_{f2}E_{m}+V_{f2}E_{f1}E_{m}},"$$
+E{c t}=\frac{E{m} E{f 1} E{f 2}}{V{m} E{f 1} E{f 2}+V{f 1} E{m} E{f 2}+V{f 2} E{m} E{f 1}}
+$$",Y,llm_only,15464
+Fundamentals_of_Materials_Instructors_Example 16.4,Materials: Metals,openai/o4-mini,text_only,1.07\times10^{-2},-0.0107,N,llm_only,41866
+Fundamentals_of_Materials_Instructors_Example 16.5,Materials: Metals,openai/o4-mini,text_only,"0.041,\;\text{oxidized at the }2\times10^{-2}\text{ M electrode}",0.0414,Y,llm_only,15913
+Fundamentals_of_Materials_Instructors_Example 16.6,Materials: Metals,openai/o4-mini,text_only,0.78,0.784,Y,llm_only,18360
+Fundamentals_of_Materials_Instructors_Example 16.7,Materials: Metals,openai/o4-mini,text_only,347.7,75,N,llm_only,14788
+Fundamentals_of_Materials_Instructors_Example 16.10,Structures: Composites,openai/o4-mini,text_only,"(393.7008,\;10)","(534.6, 87.6)",N,llm_only,16503
+Fundamentals_of_Materials_Instructors_Example 16.11,Materials: Metals,openai/o4-mini,text_only,5.28,5.27,Y,llm_only,8675
+Fundamentals_of_Materials_Instructors_Example 16.12,Materials: Metals,openai/o4-mini,text_only,"(37.6,0.954)","(37.4, 0.952)",N,llm_only,20425
+Fundamentals_of_Materials_Instructors_Example 16.13,Materials: Metals,openai/o4-mini,text_only,0.1288,0.129,Y,llm_only,21361
+Fundamentals_of_Materials_Instructors_Example 16.17,Materials: Metals,openai/o4-mini,text_only,"(1.04\times10^{-12},\;0.11)","(4.56e-12, -0.0167)",N,llm_only,17931
+Fundamentals_of_Materials_Instructors_Example 16.28,Materials: Metals,openai/o4-mini,text_only,"(0.81,\;2.67,\;1.58)","(0.81, 3.25, 1.58)",N,llm_only,18661
+Fundamentals_of_Materials_Instructors_Example 17.1,Materials: Metals,openai/o4-mini,text_only,"\bigl(5.85\times10^5,\;2.44\times10^5,\;5.04\times10^5,\;1.25\times10^6\bigr)","(5.85e5, 2.44e5, 5.04e5, 1.25e6)",Y,llm_only,12588
+Fundamentals_of_Materials_Instructors_Example 17.5,Materials: Metals,openai/o4-mini,text_only,3.74\times10^2,375,Y,llm_only,20368
+Fundamentals_of_Materials_Instructors_Example 17.7,Materials: Metals,openai/o4-mini,text_only,-0.0125,-12.5,N,llm_only,10936
+Fundamentals_of_Materials_Instructors_Example 17.8,Materials: Metals,openai/o4-mini,text_only,1.5\times10^{-5},1.5E-05,N,llm_only,6619
+Fundamentals_of_Materials_Instructors_Example 17.10,Materials: Metals,openai/o4-mini,text_only,7.68,7.680,Y,llm_only,12983
+Fundamentals_of_Materials_Instructors_Example 17.12,Materials: Metals,openai/o4-mini,text_only,"(869,430)","(869, 430)",Y,llm_only,14567
+Fundamentals_of_Materials_Instructors_Example 17.13,Materials: Metals,openai/o4-mini,text_only,247.5,247.4,Y,llm_only,11813
+Fundamentals_of_Materials_Instructors_Example 17.14,Materials: Glasses,openai/o4-mini,text_only,"(1.6\times10^6,\;2.88\times10^9,\;4.08\times10^7,\;1.44\times10^9)","(1.60e6, 2.88e9, 4.08e7, 1.44e9)",N,llm_only,14491
+Fundamentals_of_Materials_Instructors_Example 17.21,Materials: Metals,openai/o4-mini,text_only,"(29.26,\;0.0799)","(29.3, 0.080)",Y,llm_only,10868
+Fundamentals_of_Materials_Instructors_Example 17.25,Materials: Metals,openai/o4-mini,text_only,"(1.40\times10^{8},\;6.00\times10^{7})","(136, 58)",N,llm_only,17247
+Fundamentals_of_Materials_Instructors_Example 17.26,Materials: Metals,openai/o4-mini,text_only,41.3,41.3,N,llm_only,13897
+Fundamentals_of_Materials_Instructors_Example 17.27,Materials: Metals,openai/o4-mini,text_only,0.03752,0.0375,N,llm_only,17854
+Fundamentals_of_Materials_Instructors_Example 17.28,Materials: Metals,openai/o4-mini,text_only,-40.04,-40,N,llm_only,12633
+Fundamentals_of_Materials_Instructors_Example 18.1,Materials: Metals,openai/o4-mini,text_only,"(24000,\;0.03016,\;0.03017,\;7.51)","(24000, 3.0168e-2, 3.0177e-2, 7.51)",N,llm_only,16459
+Fundamentals_of_Materials_Instructors_Example 18.3,Materials: Metals,openai/o4-mini,text_only,"(-1.07\times10^{-9},\;-6.81\times10^{-11},\;-7.64\times10^{-7},\;-8.52\times10^{-8},\;-5.41\times10^{-6})","(-1.07e-9, -6.80e-11, -7.64e-7,-8.55e-8,-5.43e-6)",Y,llm_only,19991
+Fundamentals_of_Materials_Instructors_Example 18.5,Properties: Magnetic,openai/o4-mini,text_only,"(1.26\times10^{-6},2.68\times10^{-3})","(1.260e-6, 2.387e-3)",Y,llm_only,12087
+Fundamentals_of_Materials_Instructors_Example 18.6,Materials: Metals,openai/o4-mini,text_only,"(6000,\;7.54\times10^{-3},\;1.51)","(6000, 7.54e-3, 1.51)",N,llm_only,13251
+Fundamentals_of_Materials_Instructors_Example 18.8,Materials: Metals,openai/o4-mini,text_only,1.72,1.74,Y,llm_only,20891
+Fundamentals_of_Materials_Instructors_Example 18.13,Materials: Metals,openai/o4-mini,text_only,1.07,1.07,Y,llm_only,21996
+Fundamentals_of_Materials_Instructors_Example 18.14,Materials: Metals,openai/o4-mini,text_only,2.86,2.86,Y,llm_only,19781
+Fundamentals_of_Materials_Instructors_Example 18.20,Materials: Metals,openai/o4-mini,text_only,11.67,11.7,N,llm_only,9235
+Fundamentals_of_Materials_Instructors_Example 18.28,Materials: Metals,openai/o4-mini,text_only,"(5.62\times10^{4},\;3.30\times10^{4},\;6.29)","(5.62e4, 3.30e4, 6.29)",Y,llm_only,19880
+Fundamentals_of_Materials_Instructors_Example 19.1,Structures: Composites,openai/o4-mini,text_only,"(6.00\times10^{14},\;3.98\times10^{-19})","(6e14, 3.98e-19)",Y,llm_only,11526
+Fundamentals_of_Materials_Instructors_Example 19.7,Materials: Metals,openai/o4-mini,text_only,1.28\times10^8,1.28E+08,N,llm_only,18065
+Fundamentals_of_Materials_Instructors_Example 19.8,Materials: Glasses,openai/o4-mini,text_only,"(0.532,0.985)","(0.53, 0.98)",Y,llm_only,10567
+Fundamentals_of_Materials_Instructors_Example 19.13,Materials: Glasses,openai/o4-mini,text_only,8.45\times10^{-6},8.45E-06,N,llm_only,10371
+Fundamentals_of_Materials_Instructors_Example 19.14,Materials: Metals,openai/o4-mini,text_only,"(480,700)","(0.48, 0.7)",N,llm_only,14950
+Fundamentals_of_Materials_Instructors_Example 19.16,Materials: Metals,openai/o4-mini,text_only,0.884,0.884,Y,llm_only,12451
+Fundamentals_of_Materials_Instructors_Example 19.18,Materials: Metals,openai/o4-mini,text_only,29.2,29.2,N,llm_only,12808
+Fundamentals_of_Materials_Instructors_Example 19.27,Structures: Composites,openai/o4-mini,text_only,1.787,1.78,N,llm_only,15328
+Fundamentals_of_Ceramics_Barsoum_Example 2.1,Fundamental: Atomic Bonding,openai/o4-mini,text_only,-13.6,-13.6,N,llm_only,16481
+Fundamentals_of_Ceramics_Barsoum_Example 2.3,Materials: Metals,openai/o4-mini,text_only,-7.50\times10^{5},-750,Y,llm_only,14422
+Fundamentals_of_Ceramics_Barsoum_Example 3.3,Materials: Ceramics,openai/o4-mini,text_only,"\left(\frac{3}{2},1\right)","(3, 1)",N,llm_only,10836
+Fundamentals_of_Ceramics_Barsoum_Example 3.4,Materials: Metals,openai/o4-mini,text_only,"(3.52,\;3.20)","(3.51, 3.214)",Y,llm_only,24084
+Fundamentals_of_Ceramics_Barsoum_Example 5.1,Properties: Thermal,openai/o4-mini,text_only,"(16.93,-1611.51)","(16.93, -1605.0)",N,llm_only,25058
+Fundamentals_of_Ceramics_Barsoum_Example 5.4,Materials: Metals,openai/o4-mini,text_only,"(2.3\times10^{-22},1.2\times10^{-18},3.4\times10^{-11})","(2.4 \times 10^{-22}, 1.14 \times 10^{-18}, 3.4 \times 10^{-11})",Y,llm_only,34452
+Fundamentals_of_Ceramics_Barsoum_Example 6.1,Materials: Metals,openai/o4-mini,text_only,5.6\times 10^{17},$1.5 \times 10^{20}$,N,llm_only,16313
+Fundamentals_of_Ceramics_Barsoum_Example 6.3,Materials: Semiconductors,openai/o4-mini,text_only,1.5,3,N,llm_only,10050
+Fundamentals_of_Ceramics_Barsoum_Example 7.1,Materials: Semiconductors,openai/o4-mini,text_only,"(1.02\times10^{3},2.16\times10^{-3})","(743, 2.2e-5)",N,llm_only,43359
+Fundamentals_of_Ceramics_Barsoum_Example 7.4,Materials: Semiconductors,openai/o4-mini,text_only,4,3.84,Y,llm_only,19317
+Fundamentals_of_Ceramics_Barsoum_Example 7.6,Materials: Metals,openai/o4-mini,text_only,-14,3.1e-13,N,llm_only,54784
+Fundamentals_of_Ceramics_Barsoum_Example 9.1,Materials: Glasses,openai/o4-mini,text_only,"8.87\times10^{-10},\;4.95\times10^{-19},\;5.3\times10^{8}","($8.93 \times 10^{-10}$, $5 \times 10^{-19}$, 317)",N,llm_only,15733
+Fundamentals_of_Ceramics_Barsoum_Example 9.2,Materials: Glasses,openai/o4-mini,text_only,0.5,0.526,Y,llm_only,24355
+Fundamentals_of_Ceramics_Barsoum_Example 10.1,Materials: Ceramics,openai/o4-mini,text_only,114,-114,N,llm_only,10152
+Fundamentals_of_Ceramics_Barsoum_Example 10.2,Materials: Ceramics,openai/o4-mini,text_only,"(2\times10^7,\;20)","(2 \times 10^5, 20)",Y,llm_only,40149
+Fundamentals_of_Ceramics_Barsoum_Example 12.2,Materials: Glasses,openai/o4-mini,text_only,1.5\times10^3,1476,N,llm_only,17284
+Fundamentals_of_Ceramics_Barsoum_Example 14.1,Materials: Metals,openai/o4-mini,text_only,"(1.85\times10^{-40},\;1.00112,\;1.19\times10^{-10})","($1.84 \times 10^{-40}$, 0.0011, $1.2 \times 10^{-10}$)",Y,llm_only,24579
+Fundamentals_of_Ceramics_Barsoum_Example 15.2,Materials: Metals,openai/o4-mini,text_only,5.92,5.92,Y,llm_only,5661
+Fundamentals_of_Ceramics_Barsoum_Example 16.2,Materials: Glasses,openai/o4-mini,text_only,"(1.50,\;6.7\times10^{-6})","(1.5, $6.6 \times 10^{-6}$)",Y,llm_only,19810
+Materials_and_Process_Selection_for_Engineering_Design_Farag_Example 2.2,Materials: Metals,openai/o4-mini,text_only,"(7.16,1.15)","(14, 2.3)",N,llm_only,13433
+Materials_and_Process_Selection_for_Engineering_Design_Farag_Example 2.6,Materials: Metals,openai/o4-mini,text_only,6.9\times10^5,1.4e5,N,llm_only,14587
+Materials_and_Process_Selection_for_Engineering_Design_Farag_Example 2.7,Materials: Metals,openai/o4-mini,text_only,2.69,2.1,N,llm_only,15501
+Materials_and_Process_Selection_for_Engineering_Design_Farag_Example 3.1,Materials: Metals,openai/o4-mini,text_only,"(6.41\times10^{-4},\ 6245)","(6.41e-4, 6.24e3)",N,llm_only,15459
+Materials_and_Process_Selection_for_Engineering_Design_Farag_Example 3.4,Materials: Ceramics,openai/o4-mini,text_only,"(1.28, 0.81, 3.39)","(1.379, 0.806, 3.325)",N,llm_only,20745
+Materials_and_Process_Selection_for_Engineering_Design_Farag_Example 3.5,Materials: Metals,openai/o4-mini,text_only,"(1.19\times10^{7},4.6)","(11.9e6, 4.6)",Y,llm_only,15003
+Materials_and_Process_Selection_for_Engineering_Design_Farag_Example 3.6,Materials: Metals,openai/o4-mini,text_only,4,,Y,llm_only,10822
+Materials_and_Process_Selection_for_Engineering_Design_Farag_Example 4.3,Materials: Metals,openai/o4-mini,text_only,"(247,618,2.02\times10^{-4},8.09\times10^{-5},0.546,0.364)","(338, 845, 148, 60, 400, 270)",N,llm_only,13734
+Materials_and_Process_Selection_for_Engineering_Design_Farag_Example 4.4,Materials: Metals,openai/o4-mini,text_only,"(8.32e-4,1.95,1.54e-3,1.25,2.81e-4,0.659,1.79e-3,0.780)","(832, 1.947, 1541, 1.248, 281, 0.658, 1793, 0.780)",N,llm_only,22636
+Materials_and_Process_Selection_for_Engineering_Design_Farag_Example 5.2,Materials: Metals,openai/o4-mini,text_only,"(1000,115.47,0.1155)","(1000, 66.67, 0.0667)",N,llm_only,11119
+Materials_and_Process_Selection_for_Engineering_Design_Farag_Example 6.6,Materials: Metals,openai/o4-mini,text_only,86,109.5,N,llm_only,17683
+Materials_and_Process_Selection_for_Engineering_Design_Farag_Example 6.7,Materials: Metals,openai/o4-mini,text_only,"(\text{Soderberg},442)","(205.7, 440)",N,llm_only,19557
+Materials_and_Process_Selection_for_Engineering_Design_Farag_Example 6.9,Materials: Metals,openai/o4-mini,text_only,9.83\times 10^{4},255637,N,llm_only,15552
+Materials_and_Process_Selection_for_Engineering_Design_Farag_Example 6.10,Materials: Polymers,openai/o4-mini,text_only,0.2877,3.45,N,llm_only,8505
+Materials_and_Process_Selection_for_Engineering_Design_Farag_Example 6.11,Materials: Hybrids,openai/o4-mini,text_only,"(18.76,0.146)","(18.76, 6.87)",N,llm_only,16715
+Materials_and_Process_Selection_for_Engineering_Design_Farag_Example 7.3,Materials: Metals,openai/o4-mini,text_only,64.2,128,N,llm_only,22962
+Materials_and_Process_Selection_for_Engineering_Design_Farag_Example 8.1,Materials: Metals,openai/o4-mini,text_only,0.95,0.95,Y,llm_only,11609
+Materials_and_Process_Selection_for_Engineering_Design_Farag_Example 8.6,Materials: Metals,openai/o4-mini,text_only,"(6.4,\;1344,\;3.36,\;210)","(6.40, 1344, 3.36, 210)",Y,llm_only,16849
+Materials_and_Process_Selection_for_Engineering_Design_Farag_Example 8.10,Materials: Metals,openai/o4-mini,text_only,"(0.0792,\ 0.0719,\ 15.3,\ 65.8)","(79.3, 71.9, 15.4, 65.7)",N,llm_only,11049
+Materials_and_Process_Selection_for_Engineering_Design_Farag_3.6,Materials: Metals,openai/o4-mini,text_only,17.2,17,Y,llm_only,16857
+Materials_and_Process_Selection_for_Engineering_Design_Farag_5.1,Materials: Metals,openai/o4-mini,text_only,1.33,1.35,N,llm_only,10421
+Materials_and_Process_Selection_for_Engineering_Design_Farag_5.3,Materials: Metals,openai/o4-mini,text_only,"(0.05,\;1.82)","(6.9,1.55)",N,llm_only,23670
+Materials_and_Process_Selection_for_Engineering_Design_Farag_8.11,Structures: Composites,openai/o4-mini,text_only,120,120,N,llm_only,15286
+Mechanical_Behavior_of_Materials_Hosford_mechanical behaviors Example 1.1,Properties: Mechanical,openai/o4-mini,text_only,1.37,1.372,Y,llm_only,12951
+Mechanical_Behavior_of_Materials_Hosford_mechanical behaviors Example 1.2,Properties: Mechanical,openai/o4-mini,text_only,"(-6.820,\;1.079,\;18.741)","( -6.82, 1.079, 18.72)",N,llm_only,52493
+Mechanical_Behavior_of_Materials_Hosford_mechanical behaviors Example 1.3,Properties: Mechanical,openai/o4-mini,text_only,77.122,77.1,N,llm_only,12157
+Mechanical_Behavior_of_Materials_Hosford_mechanical behaviors Example 1.5,Properties: Mechanical,openai/o4-mini,text_only,"(\ln2,-\ln2,1,-\tfrac12)","(0.693, -0.693, 1.0, -0.5)",Y,llm_only,12397
+Mechanical_Behavior_of_Materials_Hosford_mechanical behaviors Example 1.6,Properties: Mechanical,openai/o4-mini,text_only,"(0.833333,\;1.0,\;0.693147,\;0.693147)","(0.844, 1.00, 0.6931, 0.6931)",N,llm_only,10180
+Mechanical_Behavior_of_Materials_Hosford_mechanical behaviors Example 1.7,Properties: Mechanical,openai/o4-mini,text_only,e^{\varepsilon_x + \varepsilon_y + \varepsilon_z},"\[
+V / V_0=\varepsilon_x+\varepsilon_y+\varepsilon_z
+\]",N,llm_only,9736
+Mechanical_Behavior_of_Materials_Hosford_mechanical behaviors Example 1.8,Materials: Metals,openai/o4-mini,text_only,"(0.00270,\;0.20772)","(0.0027, 0.2077)",N,llm_only,17736
+Mechanical_Behavior_of_Materials_Hosford_mechanical behaviors Example 1.10,Materials: Metals,openai/o4-mini,text_only,"\sigma_\theta=\frac{PD}{2t},\quad\sigma_z=\frac{PD}{4t}",$\frac{P D}{2 t}$,N,llm_only,16828
+Mechanical_Behavior_of_Materials_Hosford_mechanical behaviors Example 1.11,Materials: Metals,openai/o4-mini,text_only,T = 2\pi \int_{0}^{R} \tau_{xy}(r)r^{2}dr,$T=2 \pi \int_0^{\mathrm{R}} \tau_{\mathrm{xy}} r^2 \mathrm{d} r $,N,llm_only,11825
+Mechanical_Behavior_of_Materials_Hosford_mechanical behaviors Example 2.1,Materials: Metals,openai/o4-mini,text_only,"(2.27\times10^2,\;6.58\times10^1)","(227,65.8)",Y,llm_only,22609
+Mechanical_Behavior_of_Materials_Hosford_mechanical behaviors Example 2.2,Materials: Metals,openai/o4-mini,text_only,-\frac{\nu(1+\nu)}{E}\sigma_x,$e_z=-\sigma_x v(1+v) / E$.,N,llm_only,11820
+Mechanical_Behavior_of_Materials_Hosford_mechanical behaviors Example 2.3,Properties: Mechanical,openai/o4-mini,text_only,1.25\sigma/E,$1.25 \sigma_1 / E$,N,llm_only,19270
+Mechanical_Behavior_of_Materials_Hosford_mechanical behaviors Example 2.4,Materials: Ceramics,openai/o4-mini,text_only,-72,-72,N,llm_only,15546
+Mechanical_Behavior_of_Materials_Hosford_mechanical behaviors Example 2.6,Materials: Metals,openai/o4-mini,text_only,(c/a)\bigl(s_{11}+s_{12}-s_{13}-s_{33}\bigr),$\mathrm{~d}(\mathrm{c} / \mathrm{a}) / \mathrm{d} p=-(\mathrm{c} / \mathrm{a})\left(\mathrm{s}_{13}+\mathrm{s}_{33}-\mathrm{s}_{11}-\mathrm{s}_{12}\right)$,N,llm_only,12060
+Mechanical_Behavior_of_Materials_Hosford_mechanical behaviors Example 3.1,Properties: Mechanical,openai/o4-mini,text_only,526,526,N,llm_only,10211
+Mechanical_Behavior_of_Materials_Hosford_mechanical behaviors Example 3.2,Materials: Metals,openai/o4-mini,text_only,18,17,Y,llm_only,27550
+Mechanical_Behavior_of_Materials_Hosford_mechanical behaviors Example 3.3_a,Materials: Elastomers,openai/o4-mini,text_only,"(8\%,2.7\%)","(0.08,0.0266)",N,llm_only,14696
+Mechanical_Behavior_of_Materials_Hosford_mechanical behaviors Example 3.3_b,Properties: Mechanical,openai/o4-mini,text_only,"(σ,ε)=(120,0.1823),\quad(s,e)_{\rm comp}=(-144,-0.1667)","(-0.166,-144)",Y,llm_only,16447
+Mechanical_Behavior_of_Materials_Hosford_mechanical behaviors Example 3.4,Properties: Mechanical,openai/o4-mini,text_only,\frac{r^2 + h^2}{2h},$\rho=\frac{r^2+h^2}{2 h}$,Y,llm_only,17250
+Mechanical_Behavior_of_Materials_Hosford_mechanical behaviors Example 3.5,Materials: Polymers,openai/o4-mini,text_only,\frac{2\pi}{3}\tauR^3,$(2 / 3) \pi R^3 \tau$,N,llm_only,10991
+Mechanical_Behavior_of_Materials_Hosford_mechanical behaviors Example 3.6,Materials: Polymers,openai/o4-mini,text_only,\displaystyle \frac{2FL}{3wt^{2}},"$$
+Y=2 F L / w t^2
+$$",N,llm_only,24121
+Mechanical_Behavior_of_Materials_Hosford_mechanical behaviors Example 4.1,Materials: Metals,openai/o4-mini,text_only,"(368.4,\;310.0)","(368.8, 309.9)",Y,llm_only,37819
+Mechanical_Behavior_of_Materials_Hosford_mechanical behaviors Example 4.2,Materials: Metals,openai/o4-mini,text_only,e = \exp\bigl(1 - \frac{Y}{A}\bigr) - 1,$ e = \exp (1-Y / A)-1$,N,llm_only,13257
+Mechanical_Behavior_of_Materials_Hosford_mechanical behaviors Example 4.3,Materials: Metals,openai/o4-mini,text_only,0.075,0.1473,N,llm_only,31617
+Mechanical_Behavior_of_Materials_Hosford_mechanical behaviors Example 5.3,Materials: Metals,openai/o4-mini,text_only,"\left(\frac{2}{\sqrt3},\;\frac12\right)","(1.155, 0.5)",N,llm_only,13279
+Mechanical_Behavior_of_Materials_Hosford_mechanical behaviors Example 5.6,Materials: Metals,openai/o4-mini,text_only,0.767,0.7671,N,llm_only,27871
+Mechanical_Behavior_of_Materials_Hosford_mechanical behaviors Example 5.9,Materials: Metals,openai/o4-mini,text_only,,"(1.252, 0.330)",N,llm_only,195162
+Mechanical_Behavior_of_Materials_Hosford_mechanical behaviors Example 5.11,Materials: Metals,openai/o4-mini,text_only,"α_{\rm Hill}\approx0.364,\quad α_{\rm non\text{-}quad(a=8)}\approx0.480",0.520,N,llm_only,27356
+Mechanical_Behavior_of_Materials_Hosford_mechanical behaviors Example 6.1,Materials: Metals,openai/o4-mini,text_only,"(2.63,\;1.15)","(2.63, 1.15)",Y,llm_only,9687
+Mechanical_Behavior_of_Materials_Hosford_mechanical behaviors Example 6.2,Materials: Metals,openai/o4-mini,text_only,"(7.32,1.64)","(7.3, 1.64)",N,llm_only,7976
+Mechanical_Behavior_of_Materials_Hosford_mechanical behaviors Example 6.3,Materials: Metals,openai/o4-mini,text_only,0.185,0.177,N,llm_only,27757
+Mechanical_Behavior_of_Materials_Hosford_mechanical behaviors Example 6.5,Materials: Metals,openai/o4-mini,text_only,3.0,10,N,llm_only,10417
+Mechanical_Behavior_of_Materials_Hosford_mechanical behaviors Example 6.6,Materials: Metals,openai/o4-mini,text_only,1.16\times10^5,116,N,llm_only,11853
+Mechanical_Behavior_of_Materials_Hosford_mechanical behaviors Example 7.1,Properties: Mechanical,openai/o4-mini,text_only,125/(29\sqrt{6}),1.76,Y,llm_only,17138
+Mechanical_Behavior_of_Materials_Hosford_mechanical behaviors Example 7.2,Materials: Metals,openai/o4-mini,text_only,9.18,3.06,N,llm_only,11086
+Mechanical_Behavior_of_Materials_Hosford_mechanical behaviors Example 7.3,Materials: Metals,openai/o4-mini,text_only,"(0,1)","(0, -1)",N,llm_only,13530
+Mechanical_Behavior_of_Materials_Hosford_mechanical behaviors Example 7.4,Materials: Metals,openai/o4-mini,text_only,,2,N,llm_only,236098
+Mechanical_Behavior_of_Materials_Hosford_mechanical behaviors Example 8.1,Fundamental: Crystal Structure,openai/o4-mini,text_only,\frac{a}{2}\langle 111\rangle,$b=(a / 2)\langle 111\rangle$,N,llm_only,10991
+Mechanical_Behavior_of_Materials_Hosford_mechanical behaviors Example 8.2,Materials: Metals,openai/o4-mini,text_only,4.8\times10^{-3},0.16,N,llm_only,19644
+Mechanical_Behavior_of_Materials_Hosford_mechanical behaviors Example 8.3,Structures: Composites,openai/o4-mini,text_only,1,0,N,llm_only,9613
+Mechanical_Behavior_of_Materials_Hosford_mechanical behaviors Example 8.6,Materials: Metals,openai/o4-mini,text_only,3.7\times10^{-9},$r=G a^2 /(24 \cdot \pi \gamma)$,N,llm_only,30491
+Mechanical_Behavior_of_Materials_Hosford_mechanical behaviors Example 9.1,Materials: Metals,openai/o4-mini,text_only,7.4\times10^{-6},14,N,llm_only,14665
+Mechanical_Behavior_of_Materials_Hosford_mechanical behaviors Example 9.2,Structures: Micro/Nano-structure,openai/o4-mini,text_only,\frac{U_v}{bd},$f_L=U_v /(b d)$,Y,llm_only,18091
+Mechanical_Behavior_of_Materials_Hosford_mechanical behaviors Example 10.1,Properties: Mechanical,openai/o4-mini,text_only,18.3,5.7,N,llm_only,35679
+Mechanical_Behavior_of_Materials_Hosford_mechanical behaviors Example 11.1,Materials: Metals,openai/o4-mini,text_only,"(33,\;150)","(21.4, 175)",N,llm_only,26602
+Mechanical_Behavior_of_Materials_Hosford_mechanical behaviors Example 11.2,Materials: Metals,openai/o4-mini,text_only,0.43\,0.099,N,llm_only,30909
+Mechanical_Behavior_of_Materials_Hosford_mechanical behaviors Example 11.3,Materials: Metals,openai/o4-mini,text_only,"(100,75)","(175, 75)",N,llm_only,15164
+Mechanical_Behavior_of_Materials_Hosford_mechanical behaviors Example 14.1,Properties: Mechanical,openai/o4-mini,text_only,201,201,Y,llm_only,13821
+Mechanical_Behavior_of_Materials_Hosford_mechanical behaviors Example 14.2,Materials: Metals,openai/o4-mini,text_only,0.016,0.016,Y,llm_only,12927
+Mechanical_Behavior_of_Materials_Hosford_mechanical behaviors Example 14.3,Materials: Metals,openai/o4-mini,text_only,"\bigl(\tfrac{1}{2\pi}(K_{Ic}/Y)^2,\;\tfrac{5}{8\pi}(K_{Ic}/Y)^2)","($0.159\left(\mathrm{~K}_{\text {Ic }} / Y\right)^2$, $0.199\left(\mathrm{~K}_{\text {Ic }} / Y\right)^2$)",Y,llm_only,26407
+Mechanical_Behavior_of_Materials_Hosford_mechanical behaviors Example 14.5,Materials: Metals,openai/o4-mini,text_only,8.23\times10^2,1275,N,llm_only,28719
+Mechanical_Behavior_of_Materials_Hosford_mechanical behaviors Example 14.6,Materials: Metals,openai/o4-mini,text_only,0.256,0.26,N,llm_only,9040
+Mechanical_Behavior_of_Materials_Hosford_mechanical behaviors Example 15.1,Materials: Elastomers,openai/o4-mini,text_only,1.02,1.02,N,llm_only,57274
+Mechanical_Behavior_of_Materials_Hosford_mechanical behaviors Example 15.2,Materials: Metals,openai/o4-mini,text_only,0.0206,0.0204,N,llm_only,23024
+Mechanical_Behavior_of_Materials_Hosford_mechanical behaviors Example 15.3,Materials: Metals,openai/o4-mini,text_only,13.05,6.5,N,llm_only,13098
+Mechanical_Behavior_of_Materials_Hosford_mechanical behaviors Example 15.4,Materials: Metals,openai/o4-mini,text_only,8.0\times10^{4},82.4,N,llm_only,15393
+Mechanical_Behavior_of_Materials_Hosford_mechanical behaviors Example 16.1,Properties: Mechanical,openai/o4-mini,text_only,"(3.90\times10^{5},\;3.83\times10^{5})","(390, 383)",Y,llm_only,38110
+Mechanical_Behavior_of_Materials_Hosford_mechanical behaviors Example 16.2,Materials: Metals,openai/o4-mini,text_only,1600,1364,Y,llm_only,31071
+Mechanical_Behavior_of_Materials_Hosford_mechanical behaviors Example 17.1,Materials: Metals,openai/o4-mini,text_only,"(0.079,\;711)","(0.24, 5508)",N,llm_only,19108
+Mechanical_Behavior_of_Materials_Hosford_mechanical behaviors Example 17.3,Materials: Metals,openai/o4-mini,text_only,2.14\times10^5,$0.21 \times 10^{6}$,Y,llm_only,12408
+Mechanical_Behavior_of_Materials_Hosford_mechanical behaviors Example 17.4,Materials: Metals,openai/o4-mini,text_only,2.8,2.5,N,llm_only,25112
+Mechanical_Behavior_of_Materials_Hosford_mechanical behaviors Example 17.5,Materials: Metals,openai/o4-mini,text_only,1.11,1.105,N,llm_only,61848
+Mechanical_Behavior_of_Materials_Hosford_mechanical behaviors Example 17.6,Materials: Metals,openai/o4-mini,text_only,"(4.19,\ 1.16\times10^{-11})","(4.05, $6.2 \times 10^{-11}$)",N,llm_only,13693

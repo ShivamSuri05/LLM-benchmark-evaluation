@@ -1,0 +1,9 @@
+model,group,group_value,n,accuracy
+openai/gpt-4o-mini,overall,all,292,0.1952054794520548
+openai/gpt-4o-mini,difficulty,medium,78,0.16666666666666666
+openai/gpt-4o-mini,category,Materials,248,0.20161290322580644
+openai/gpt-4o-mini,category,Structures,271,0.19557195571955718
+openai/gpt-4o-mini,difficulty,easy,159,0.22012578616352202
+openai/gpt-4o-mini,category,Properties,189,0.1693121693121693
+openai/gpt-4o-mini,difficulty,hard,55,0.16363636363636364
+openai/gpt-4o-mini,category,Processes,28,0.07142857142857142

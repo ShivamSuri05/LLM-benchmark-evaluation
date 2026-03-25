@@ -1,4 +1,4 @@
 .env
 __pycache__/
 data/
-outputs/
+outputs_old/

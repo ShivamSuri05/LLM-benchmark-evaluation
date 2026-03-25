@@ -1,0 +1,9 @@
+model,prompt_version,subject,n,accuracy
+openai/gpt-4o,v1_baseline,Biology,211,0.6872037914691943
+openai/gpt-4o,v1_baseline,__OVERALL_WEIGHTED__,211,0.6872037914691943
+openai/gpt-4o,v2_reasoning,Biology,211,0.6303317535545023
+openai/gpt-4o,v2_reasoning,__OVERALL_WEIGHTED__,211,0.6303317535545023
+openai/gpt-4o,v3_concise,Biology,211,0.7014218009478673
+openai/gpt-4o,v3_concise,__OVERALL_WEIGHTED__,211,0.7014218009478673
+openai/gpt-4o,v4_detailed,Biology,211,0.6966824644549763
+openai/gpt-4o,v4_detailed,__OVERALL_WEIGHTED__,211,0.6966824644549763
